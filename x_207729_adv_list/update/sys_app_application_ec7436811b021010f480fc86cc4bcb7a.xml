@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="">Custom Applications</category>
+        <description>List for displaying records from multiple tables</description>
+        <device_type>browser</device_type>
+        <hint>List for displaying records from multiple tables</hint>
+        <name/>
+        <order/>
+        <roles>admin,sp_admin</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-15 08:57:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ec7436811b021010f480fc86cc4bcb7a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SP Advanced List</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="SP Advanced List" source="x_207729_adv_list">09a2f2811b021010f480fc86cc4bcbf0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SP Advanced List">09a2f2811b021010f480fc86cc4bcbf0</sys_scope>
+        <sys_update_name>sys_app_application_ec7436811b021010f480fc86cc4bcb7a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-15 08:57:29</sys_updated_on>
+        <title>SP Advanced List</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>

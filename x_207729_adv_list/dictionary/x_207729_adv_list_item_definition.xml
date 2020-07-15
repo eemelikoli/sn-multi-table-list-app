@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Item definition" max_length="40" name="x_207729_adv_list_item_definition" type="collection">
+        <element attributes="edge_encryption_enabled=true" display="true" label="Item name" max_length="100" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Short description" max_length="255" name="short_description" type="string"/>
+    </element>
+</database>

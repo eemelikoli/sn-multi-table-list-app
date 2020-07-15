@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" extends="sp_instance" label="List instance" max_length="40" name="x_207729_adv_list_instance" type="collection"/>
+</database>
