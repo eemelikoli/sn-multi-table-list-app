@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Behavior" section_id="c8ebcfc51b421010f480fc86cc4bcb99" sys_domain="global" table="x_207729_adv_list_instance" version="3" view="sp_instance_config">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>roles</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-07-15 10:39:51</sys_created_on>
+            <sys_id>ccebcfc51b421010f480fc86cc4bcb9a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Behavior" display_value="Behavior" name="x_207729_adv_list_instance" sys_domain="global" view="0ce54027b33232007a6de81816a8dca1">c8ebcfc51b421010f480fc86cc4bcb99</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-07-15 10:39:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>order</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-07-15 10:39:51</sys_created_on>
+            <sys_id>44ebcfc51b421010f480fc86cc4bcb9b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Behavior" display_value="Behavior" name="x_207729_adv_list_instance" sys_domain="global" view="0ce54027b33232007a6de81816a8dca1">c8ebcfc51b421010f480fc86cc4bcb99</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-07-15 10:39:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Behavior</caption>
+            <header>false</header>
+            <name>x_207729_adv_list_instance</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-07-15 10:39:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c8ebcfc51b421010f480fc86cc4bcb99</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Behavior</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="SP Advanced List" source="x_207729_adv_list">09a2f2811b021010f480fc86cc4bcbf0</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SP Advanced List">09a2f2811b021010f480fc86cc4bcbf0</sys_scope>
+            <sys_update_name>sys_ui_section_c8ebcfc51b421010f480fc86cc4bcb99</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-07-15 10:39:51</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="SP Instance Config" name="sp_instance_config">0ce54027b33232007a6de81816a8dca1</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SP Advanced List">09a2f2811b021010f480fc86cc4bcbf0</application>
+        <file_path/>
+        <instance_id>2644c26bdb6dd780ff27d5b0cf961986</instance_id>
+        <instance_name>dev57125</instance_name>
+        <name>sys_ui_section_c8ebcfc51b421010f480fc86cc4bcb99</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Behavior" section_id="c8ebcfc51b421010f480fc86cc4bcb99" sys_domain="global" table="x_207729_adv_list_instance" version="3" view="sp_instance_config"><sys_ui_element action="INSERT_OR_UPDATE"><element>roles</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-07-15 10:39:51</sys_created_on><sys_id>ccebcfc51b421010f480fc86cc4bcb9a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Behavior" display_value="Behavior" name="x_207729_adv_list_instance" sys_domain="global" view="0ce54027b33232007a6de81816a8dca1">c8ebcfc51b421010f480fc86cc4bcb99</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-07-15 10:39:51</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>order</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-07-15 10:39:51</sys_created_on><sys_id>44ebcfc51b421010f480fc86cc4bcb9b</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Behavior" display_value="Behavior" name="x_207729_adv_list_instance" sys_domain="global" view="0ce54027b33232007a6de81816a8dca1">c8ebcfc51b421010f480fc86cc4bcb99</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-07-15 10:39:51</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Behavior</caption><header>false</header><name>x_207729_adv_list_instance</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-07-15 10:39:51</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c8ebcfc51b421010f480fc86cc4bcb99</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Behavior</sys_name><sys_overrides/><sys_package display_value="SP Advanced List" source="x_207729_adv_list">09a2f2811b021010f480fc86cc4bcbf0</sys_package><sys_policy/><sys_scope display_value="SP Advanced List">09a2f2811b021010f480fc86cc4bcbf0</sys_scope><sys_update_name>sys_ui_section_c8ebcfc51b421010f480fc86cc4bcb99</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-07-15 10:39:51</sys_updated_on><sys_user/><title>false</title><view display_value="SP Instance Config" name="sp_instance_config">0ce54027b33232007a6de81816a8dca1</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>243968634</payload_hash>
+        <record_name>List instance</record_name>
+        <reverted_from/>
+        <source>1b2a7a091b021010f480fc86cc4bcba8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-15 10:39:51</sys_created_on>
+        <sys_id>00ebcfc51b421010f480fc86cc4bcb9d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>173520f27020000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-15 10:39:51</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>88ebcfc57b421010dd3c8e966321529c</update_guid>
+        <update_guid_history>88ebcfc57b421010dd3c8e966321529c:243968634</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-21 11:59:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>2ec0f25b24e048f0a314113fc9972c40</sys_id>
+        <sys_metadata>c8ebcfc51b421010f480fc86cc4bcb99</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Behavior</sys_name>
+        <sys_package display_value="SP Advanced List" source="x_207729_adv_list">09a2f2811b021010f480fc86cc4bcbf0</sys_package>
+        <sys_parent display_value="">7d7372091b021010f480fc86cc4bcb8a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="SP Advanced List">09a2f2811b021010f480fc86cc4bcbf0</sys_scope>
+        <sys_scope_delete display_value="">1240737bed564758b22d7ec231602f84</sys_scope_delete>
+        <sys_update_name>sys_ui_section_c8ebcfc51b421010f480fc86cc4bcb99</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_c8ebcfc51b421010f480fc86cc4bcb99">00ebcfc51b421010f480fc86cc4bcb9d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-21 11:59:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

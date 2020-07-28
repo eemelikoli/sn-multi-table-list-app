@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function test($location) {
+	/* widget controller */
+	var c = this;
+
+	function init() {
+		c.selectedSorting = c.data.sortingOptions[0];
+		c.searchInput = $location.search().s;
+		updateData("init", c.selectedSorting, c.searchInput);
+	}
+
+
+	function updateData(action, sorting, searchTerm) {
+		c.data.action = action;
+		c.data.sorting = sorting;
+		c.data.searchTerm = searchTerm;
+		c.loading = true;
+		c.server.update().then(function () {
+			c.data.action = undefined;
+			c.loading = false;
+		});
+	}
+
+
+	c.reload = function () {
+		if (c.loading) {
+			return;
+		}
+		updateData("load", c.selectedSorting, c.searchInput);
+	};
+
+	c.search = function () {
+		if (c.searchInput !== c.data.searchTerm) {
+			var parms = $location.search();
+			parms.s = c.searchInput;
+			parms.spa = 1;
+			$location.search(parms);
+			c.reload();
+		}
+	};
+
+	c.clearSearch = function () {
+		c.searchInput = null;
+		c.search();
+	};
+
+
+	init();
+
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.list-group-horizontal .list-group-item {
+	display: inline-block;
+}
+
+.list-group-horizontal .list-group-item {
+	margin-bottom: 0;
+	margin-left: -4px;
+	margin-right: 0;
+	border-right-width: 0;
+}
+
+.list-group-horizontal .list-group-item:first-child {
+	border-top-right-radius: 0;
+	border-bottom-left-radius: 4px;
+}
+
+.list-group-horizontal .list-group-item:last-child {
+	border-top-right-radius: 4px;
+	border-bottom-left-radius: 0;
+	border-right-width: 1px;
+}
+
+#controls {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+	.search {
+		flex: 1 0 auto;
+		
+		.input-group {
+			width: 100%;
+		}
+	}
+
+	.sort {
+		flex: 1 0 auto;
+		display: flex;
+		justify-content: flex-end;
+		align-items: baseline;
+	}
+}
+
+#item-list, #errors, #controls {
+
+	margin-bottom: 10px;
+	
+	ul {
+		list-style: none;
+		padding: 0;
+	}
+}
+
+.template {
+	display: flex;
+
+	.fa {
+		margin-right:10px;
+	}
+
+	h3 {
+		margin-top: 0;
+		padding-top: 0;
+	}
+}
+
+@media (max-width: 768px) { 
+	#controls {
+		.search, .sort {
+			display: block;
+		}
+	}
+ }
+
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>sp-advanced-list</id>
+        <internal>false</internal>
+        <link><![CDATA[function link (scope, element, attrs, controller) {
+    var lazyLoader = $injector.get("lazyLoader");
+    lazyLoader.putTemplates(scope.data.listTemplates);
+}]]></link>
+        <name>SP Advanced List</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function () {
+  // CONSTANTS
+  var LIST_INSTANCE_TABLE = "x_207729_adv_list_instance",
+      LIST_ITEM_TABLE = "x_207729_adv_list_item_definition",
+      CONFIG_FIELDS = [
+      "active",
+      "name",
+      "table",
+      "title_field",
+      "primary_fields",
+      "secondary_fields",
+      "filter",
+      "item_icon",
+      "item_template",
+      "id",
+      "link_url",
+      "link_parameters"
+      ],
+      SORTING_OPTIONS = [{
+        'id': 1,
+        'field': 'title',
+        'display': gs.getMessage('title_AZ'),
+        'orderAsc': true
+      }, {
+        'id': 2,
+        'field': 'title',
+        'display': gs.getMessage('title_ZA'),
+        'orderAsc': false
+      }, {
+        'id': 3,
+        'field': 'sys_created_on',
+        'display': gs.getMessage('Newest'),
+        'orderAsc': false
+      }, {
+        'id': 4,
+        'field': 'sys_created_on',
+        'display': gs.getMessage('Oldest'),
+        'orderAsc': true
+      }, {
+        'id': 5,
+        'field': 'sys_updated_on',
+        'display': gs.getMessage('Latest modified'),
+        'orderAsc': false
+      }, {
+        'id': 6,
+        'field': 'sys_updated_on',
+        'display': gs.getMessage('Oldest modified'),
+        'orderAsc': true
+      }],
+      records = [];
+
+  data.sortingOptions = SORTING_OPTIONS;
+
+  // in order to keep the options beyond initial load we need to pass them to data object
+  if (options) {
+    data.options = options;
+  }
+
+
+  //initialize the table instances on the first load so template can be cached
+  initializeTableInstances(LIST_INSTANCE_TABLE, LIST_ITEM_TABLE, CONFIG_FIELDS);
+
+
+  // making the widget async
+  if (!input) {
+    return;
+  }
+
+  // set options from the input
+  if (input.options) {
+    options = input.options;
+  }
+
+
+
+  if (input.action === 'init') {
+    records = fetchData(input.sorting.field, input.sorting.orderAsc, input.searchTerm);
+    data.items = compileResults(records, input.sorting.field, input.sorting.orderAsc);
+    //TODO: add initializing function
+  }
+
+
+  if (input.action === 'load') {
+    fetchData(input.sorting.field, input.sorting.orderAsc, input.searchTerm);
+    //TODO: write functions to query multiple tables, fetch all required data and compile results to one dataset
+  }
+
+})();
+
+
+function initializeTableInstances(listTable, listItemTable, configurationFields) {
+  // error for not passing required tables to the function
+  if (!listTable || !listItemTable) {
+    errorMsgProvider('configuration');
+    return;
+  }
+
+
+  var instGr = new GlideRecord(listTable);
+  instGr.get(options.instance);
+  data.tableInstances = instGr.getValue('item_instances').split(",");
+
+  // handle error for missing table instances
+  if (data.tableInstances.length === 0) {
+    errorMsgProvider('configuration');
+    return;
+  }
+
+
+  data.tableConfigurations = [];
+  data.listTemplates = {};
+  data.tableInstances.forEach(function (instance) {
+    var t = {};
+    var instanceGr = new GlideRecord(listItemTable);
+    instanceGr.get(instance);
+
+    if (!instanceGr.isValidRecord() || instanceGr.getValue('active') === '0') {
+      errorMsgProvider("table");
+      return;
+    }
+
+    for (var i = 0, j = configurationFields.length; i < j; i++) {
+      t[configurationFields[i]] = instanceGr.getValue(configurationFields[i]);
+    }
+
+    data.tableConfigurations.push(t);
+    //using undocumented built in ServiceNow function to generate the list templates dynamically from record data
+    data.listTemplates["sp-template-" + t.id + ".html"] = $sp.translateTemplate(t.item_template);
+  });
+}
+
+
+/**
+ * 
+ * @param {string} table name of the table where the query is constructed
+ * @param {string} filter filter to be applied 
+ * @param {string} orderBy field name to order the query
+ * @param {boolean} orderAsc ascending (true) or descencing (false, default) ordering
+ * @param {int} limit how many records should be returned from the query
+ * @returns {glideRecord obj} queried gliderecord object
+ */
+function generateGliderecord(table, filter, orderBy, orderAsc, searchTerm, limit) {
+  var query = new GlideRecord(table);
+  if (!query.isValid()) {
+    errorMsgProvider('table', table, $sp.getValue('title'));
+    return;
+  }
+
+  if (filter !== null && filter !== undefined) {
+    query.addEncodedQuery(filter);
+  }
+
+  if (orderAsc === true ? query.orderBy(orderBy) : query.orderByDesc(orderBy));
+
+  if(searchTerm !== null && searchTerm !== undefined && searchTerm !== ""){
+    query.addQuery('IR_AND_OR_QUERY', searchTerm);
+  }
+
+  if (limit !== 0 && limit !== null && limit !== undefined) {
+    gs.addInfoMessage(limit);
+    query.setLimit(limit);
+  }
+
+  var t = {
+    'table': table,
+    'query': query.getEncodedQuery()
+  };
+  data.tableConfigurations.push(t);
+
+  query.query();
+  return query;
+}
+
+/**
+ * 
+ * @param {*} orderBy 
+ * @param {*} orderAsc 
+ * @param {*} searchTerm 
+ */
+function fetchData(orderBy, orderAsc, searchTerm) {
+  var items = [],
+    record = {},
+    query;
+
+
+  data.tableConfigurations.forEach(function (instance) {
+
+    // if sorting is set to use record titles, set ordering uniquely for each table instance
+    if (orderBy === 'title') {
+      instance['orderBy'] = instance.title_field;
+    } else {
+      instance['orderBy'] = orderBy;
+    }
+
+    query = generateGliderecord(instance.table, instance.filter, instance.orderBy, orderAsc, searchTerm); //generate the gliderecord object with queried records
+    while (query.next()) {
+      record = {
+        title: {},
+        primary_fields: {},
+        secondary_fields: {},
+        icon: "fa-" + instance.item_icon, //form FontAwesome icon name for the record
+        templateID: "sp-template-" + instance.id + ".html", // form the record template name
+        sys_id: query.getValue('sys_id'), //get sys_id for every record
+        sys_created_on: query.getValue('sys_created_on'),
+        sys_updated_on: query.getValue('sys_updated_on')
+      };
+
+      //we need to use $sp.getRecord* to access dot-walked fields
+      $sp.getRecordDisplayValues(record.title, query, instance.title_field);
+      $sp.getRecordElements(record.primary_fields, query, instance.primary_fields);
+      $sp.getRecordElements(record.secondary_fields, query, instance.secondary_fields);
+
+      record.title = record.title[Object.keys(record.title)[0]]; // making the record title display value easier to access in final sorting and HTML
+      items.push(record);
+    }
+    query = undefined; //reset query object
+  });
+
+  return items;
+}
+
+
+/**
+ * 
+ * @param {arr} data array of objects containing list records
+ * @param {string} orderBy field name to order the array by
+ * @param {boolean} orderAsc should the data be ordered ascending
+ * @param {int} limit how many items are returned after sorting
+ * @returns {arr} limited number of list record after sorting
+ */
+function compileResults(data, orderBy, orderAsc, limit) {
+  var sortArr = data;
+  
+  if(orderAsc === true){
+      sortAsc(sortArr, orderBy);
+    } else {
+      sortDesc(sortArr, orderBy);
+    }
+
+    return sortArr;
+}
+
+/**
+ * 
+ * @param {arr} arr array to sort
+ * @param {string} sortBy object property name to sort by
+ */
+function sortAsc(arr, sortBy) {
+  return arr.sort(function(a, b){
+    if(a[sortBy] < b[sortBy]) {return -1;}
+    if(a[sortBy] > b[sortBy]) {return 1;}
+    return 0;
+  });
+}
+
+/**
+ * 
+ * @param {arr} arr array to sort
+ * @param {string} sortBy object property name to sort by
+ */
+function sortDesc(arr, sortBy) {
+  return arr.sort(function(a,b){
+    if(a[sortBy] > b[sortBy]) {return -1;}
+    if(a[sortBy] < b[sortBy]) {return 1;}
+    return 0;
+  });
+}
+
+
+/**
+ * 
+ * @param {string} errorType possible errors "configuration" or "table"
+ * @param {string} arg1 table name to be added to the error message
+ * @param {string} arg2 widget identifier for error message
+ */
+function errorMsgProvider(errorType, arg1, arg2) {
+  data.error = true;
+  data.errorMessages = [];
+  switch (errorType) {
+    case 'configuration':
+      data.errorMessages.push("Table configuration is not available for this widget. Please contact your system administrator.");
+      break;
+    case 'table':
+      data.errorMessages.push("One of tables provided for widget is not valid.");
+      gs.warn("The table ({0}) provided for widget ({1}) is not valid.", arg1, arg2);
+      break;
+    default:
+      data.errorMessages.push("An error occurred, please try again later. If the problem persists contact your system administrator.");
+  }
+}]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-15 09:23:49</sys_created_on>
+        <sys_id>d27abec91b021010f480fc86cc4bcbb4</sys_id>
+        <sys_mod_count>195</sys_mod_count>
+        <sys_name>SP Advanced List</sys_name>
+        <sys_package display_value="SP Advanced List" source="x_207729_adv_list">09a2f2811b021010f480fc86cc4bcbf0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SP Advanced List">09a2f2811b021010f480fc86cc4bcbf0</sys_scope>
+        <sys_update_name>sp_widget_d27abec91b021010f480fc86cc4bcbb4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-27 11:25:51</sys_updated_on>
+        <template><![CDATA[<div id="title" class="col-xs-12">
+    <h1>{{::options.title || "Hello there!"}}</h1>
+</div>
+
+<section id="errors" ng-if="data.error" class="col-xs-12">
+    <ul>
+        <li ng-repeat="error in data.errorMessages" class="alert alert-warning">
+            {{error}}
+        </li>
+    </ul>
+</section>
+
+<section id="controls" class="col-xs-12 form-inline">
+
+    <div class="form-group search">
+        <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search for..." ng-model="c.searchInput"
+                ng-disabled="c.loading">
+            <div class="input-group-btn">
+                <button class="btn btn-default" type="button" ng-click="c.search()"
+                    ng-disabled="c.loading">${search}</button>
+                <button class="btn btn-danger" type="button" ng-click="c.clearSearch()"
+                    ng-disabled="c.loading">${clear}</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group form-inline sort">
+        <label for="sortingMenu">${sort_by_text}</label>
+        <select class="form-control" name="sortingMenu" id="sortingMenu"
+            ng-options="option as option.display for option in data.sortingOptions track by option.id"
+            ng-model="c.selectedSorting" ng-change="c.reload()" ng-disabled="c.loading">
+        </select>
+    </div>
+
+</section>
+
+<section id="item-list" class="col-xs-12">
+
+    <ul id=items>
+        <li class="panel panel-default" ng-repeat="item in data.items">
+            <a class="panel-body template">
+                <div ng-if="item.icon !== null && item.icon !== undefined" class="fa fa-2x" ng-class="item.icon"></div>
+                <div ng-if="data.listTemplates[item.templateID] != null" ng-include="item.templateID"></div>
+                <!-- using the default list template on when no template is provided -->
+                <div ng-if="data.listTemplates[item.templateID] == null">
+                    <h3>{{item.title}}</h3>
+                    <p ng-repeat="field in item.primary_fields">{{field.display_value}}</p>
+                </div>
+            </a>
+        </li>
+    </ul>
+
+</section>]]></template>
+    </sp_widget>
+</record_update>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="u_filter_conditions" table="x_207729_adv_list_item_definition">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes/>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Filter Conditions</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_filter_conditions</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="Conditions">conditions</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <name>x_207729_adv_list_item_definition</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-15 10:28:13</sys_created_on>
+        <sys_id>d5194f451b421010f480fc86cc4bcb0c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Filter Conditions</sys_name>
+        <sys_package display_value="SP Advanced List" source="x_207729_adv_list">09a2f2811b021010f480fc86cc4bcbf0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SP Advanced List">09a2f2811b021010f480fc86cc4bcbf0</sys_scope>
+        <sys_update_name>sys_dictionary_x_207729_adv_list_item_definition_u_filter_conditions</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-15 10:28:13</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SP Advanced List">09a2f2811b021010f480fc86cc4bcbf0</application>
+        <file_path/>
+        <instance_id>2644c26bdb6dd780ff27d5b0cf961986</instance_id>
+        <instance_name>dev57125</instance_name>
+        <name>sys_dictionary_x_207729_adv_list_item_definition_u_filter_conditions</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_filter_conditions" table="x_207729_adv_list_item_definition"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Filter Conditions&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_filter_conditions&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Conditions"&gt;conditions&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;4000&lt;/max_length&gt;&lt;name&gt;x_207729_adv_list_item_definition&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-15 10:28:13&lt;/sys_created_on&gt;&lt;sys_id&gt;d5194f451b421010f480fc86cc4bcb0c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Filter Conditions&lt;/sys_name&gt;&lt;sys_package display_value="SP Advanced List" source="x_207729_adv_list"&gt;09a2f2811b021010f480fc86cc4bcbf0&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="SP Advanced List"&gt;09a2f2811b021010f480fc86cc4bcbf0&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_x_207729_adv_list_item_definition_u_filter_conditions&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-07-15 10:28:13&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1182356506</payload_hash>
+        <record_name>Item definition.Filter Conditions</record_name>
+        <reverted_from/>
+        <source>1b2a7a091b021010f480fc86cc4bcba8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-15 10:28:13</sys_created_on>
+        <sys_id>2d3907851b421010f480fc86cc4bcb72</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17352047fc60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-15 10:28:13</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>6539078519421010c674eb20920ce572</update_guid>
+        <update_guid_history>6539078519421010c674eb20920ce572:-1182356506</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-15 10:42:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>0ceff1d58ba449e091bab35732896284</sys_id>
+        <sys_metadata>d5194f451b421010f480fc86cc4bcb0c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Filter Conditions</sys_name>
+        <sys_package display_value="SP Advanced List" source="x_207729_adv_list">09a2f2811b021010f480fc86cc4bcbf0</sys_package>
+        <sys_parent display_value="List item sources">7f243a091b021010f480fc86cc4bcbef</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="SP Advanced List">09a2f2811b021010f480fc86cc4bcbf0</sys_scope>
+        <sys_scope_delete display_value="">1240737bed564758b22d7ec231602f84</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_207729_adv_list_item_definition_u_filter_conditions</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_207729_adv_list_item_definition_u_filter_conditions">2d3907851b421010f480fc86cc4bcb72</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-15 10:42:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

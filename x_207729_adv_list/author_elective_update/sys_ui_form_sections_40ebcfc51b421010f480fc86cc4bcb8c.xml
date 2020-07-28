@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections action="DELETE" form_id="40ebcfc51b421010f480fc86cc4bcb8c" sys_domain="global" table="x_207729_adv_list_instance" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-07-15 10:39:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>44ebcfc51b421010f480fc86cc4bcb94</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_207729_adv_list_instance" name="x_207729_adv_list_instance" sys_domain="global" view="0ce54027b33232007a6de81816a8dca1">40ebcfc51b421010f480fc86cc4bcb8c</sys_ui_form>
+            <sys_ui_section caption="Presentation" display_value="Presentation" name="x_207729_adv_list_instance" sys_domain="global" view="0ce54027b33232007a6de81816a8dca1">40ebcfc51b421010f480fc86cc4bcb8e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-07-21 10:17:39</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-07-15 10:39:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c0ebcfc51b421010f480fc86cc4bcb9d</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_207729_adv_list_instance" name="x_207729_adv_list_instance" sys_domain="global" view="0ce54027b33232007a6de81816a8dca1">40ebcfc51b421010f480fc86cc4bcb8c</sys_ui_form>
+            <sys_ui_section caption="Behavior" display_value="Behavior" name="x_207729_adv_list_instance" sys_domain="global" view="0ce54027b33232007a6de81816a8dca1">c8ebcfc51b421010f480fc86cc4bcb99</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-07-21 10:17:39</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_207729_adv_list_instance</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-07-15 10:39:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>40ebcfc51b421010f480fc86cc4bcb8c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_207729_adv_list_instance</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="SP Advanced List" source="x_207729_adv_list">09a2f2811b021010f480fc86cc4bcbf0</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SP Advanced List">09a2f2811b021010f480fc86cc4bcbf0</sys_scope>
+            <sys_update_name>sys_ui_form_sections_40ebcfc51b421010f480fc86cc4bcb8c</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-07-15 10:39:51</sys_updated_on>
+            <sys_user/>
+            <view display_value="SP Instance Config" name="sp_instance_config">0ce54027b33232007a6de81816a8dca1</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SP Advanced List">09a2f2811b021010f480fc86cc4bcbf0</application>
+        <file_path/>
+        <instance_id>2644c26bdb6dd780ff27d5b0cf961986</instance_id>
+        <instance_name>dev57125</instance_name>
+        <name>sys_ui_form_sections_40ebcfc51b421010f480fc86cc4bcb8c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_form_sections form_id="40ebcfc51b421010f480fc86cc4bcb8c" sys_domain="global" table="x_207729_adv_list_instance" version="3"><sys_ui_form_section action="INSERT_OR_UPDATE"><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-07-15 10:39:51</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>44ebcfc51b421010f480fc86cc4bcb94</sys_id><sys_mod_count>1</sys_mod_count><sys_overrides/><sys_ui_form display_value="x_207729_adv_list_instance" name="x_207729_adv_list_instance" sys_domain="global" view="0ce54027b33232007a6de81816a8dca1">40ebcfc51b421010f480fc86cc4bcb8c</sys_ui_form><sys_ui_section caption="Presentation" display_value="Presentation" name="x_207729_adv_list_instance" sys_domain="global" view="0ce54027b33232007a6de81816a8dca1">40ebcfc51b421010f480fc86cc4bcb8e</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-07-21 10:17:39</sys_updated_on></sys_ui_form_section><sys_ui_form_section action="INSERT_OR_UPDATE"><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2020-07-15 10:39:51</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>c0ebcfc51b421010f480fc86cc4bcb9d</sys_id><sys_mod_count>1</sys_mod_count><sys_overrides/><sys_ui_form display_value="x_207729_adv_list_instance" name="x_207729_adv_list_instance" sys_domain="global" view="0ce54027b33232007a6de81816a8dca1">40ebcfc51b421010f480fc86cc4bcb8c</sys_ui_form><sys_ui_section caption="Behavior" display_value="Behavior" name="x_207729_adv_list_instance" sys_domain="global" view="0ce54027b33232007a6de81816a8dca1">c8ebcfc51b421010f480fc86cc4bcb99</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-07-21 10:17:39</sys_updated_on></sys_ui_form_section><sys_ui_form action="INSERT_OR_UPDATE"><name>x_207729_adv_list_instance</name><roles/><sys_class_name>sys_ui_form</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-07-15 10:39:51</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>40ebcfc51b421010f480fc86cc4bcb8c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_207729_adv_list_instance</sys_name><sys_overrides/><sys_package display_value="SP Advanced List" source="x_207729_adv_list">09a2f2811b021010f480fc86cc4bcbf0</sys_package><sys_policy/><sys_scope display_value="SP Advanced List">09a2f2811b021010f480fc86cc4bcbf0</sys_scope><sys_update_name>sys_ui_form_sections_40ebcfc51b421010f480fc86cc4bcb8c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-07-15 10:39:51</sys_updated_on><sys_user/><view display_value="SP Instance Config" name="sp_instance_config">0ce54027b33232007a6de81816a8dca1</view><view_name/></sys_ui_form></sys_ui_form_sections></record_update>]]></payload>
+        <payload_hash>1538169318</payload_hash>
+        <record_name>List instance</record_name>
+        <reverted_from/>
+        <source>1b2a7a091b021010f480fc86cc4bcba8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-21 10:17:39</sys_created_on>
+        <sys_id>cd500e031b061010f480fc86cc4bcb88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17370e0fa630000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-21 10:17:39</sys_updated_on>
+        <type>Form Sections</type>
+        <update_guid>49500e032e06101041cf0db1b5661a88</update_guid>
+        <update_guid_history>49500e032e06101041cf0db1b5661a88:1538169318,85500e034f061010e739f9ea54b0be84:1944785542,48ebcfc51c42101069200ba5b483269e:-2145566409,c0ebcfc5ae4210103286c30733d7ea8d:-243138631</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-21 11:59:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_form">sys_ui_form</sys_db_object>
+        <sys_id>0172735343884c7182c15ef6a08ee691</sys_id>
+        <sys_metadata>40ebcfc51b421010f480fc86cc4bcb8c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_207729_adv_list_instance</sys_name>
+        <sys_package display_value="SP Advanced List" source="x_207729_adv_list">09a2f2811b021010f480fc86cc4bcbf0</sys_package>
+        <sys_parent display_value="">7d7372091b021010f480fc86cc4bcb8a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="SP Advanced List">09a2f2811b021010f480fc86cc4bcbf0</sys_scope>
+        <sys_scope_delete display_value="">1240737bed564758b22d7ec231602f84</sys_scope_delete>
+        <sys_update_name>sys_ui_form_sections_40ebcfc51b421010f480fc86cc4bcb8c</sys_update_name>
+        <sys_update_version display_value="sys_ui_form_sections_40ebcfc51b421010f480fc86cc4bcb8c">cd500e031b061010f480fc86cc4bcb88</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-21 11:59:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

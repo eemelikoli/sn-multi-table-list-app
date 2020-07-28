@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-15 08:53:15</sys_created_on>
+        <sys_id>6673b2091b021010f480fc86cc4bcb24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_207729_adv_list_instance.admin</sys_name>
+        <sys_package display_value="SP Advanced List" source="x_207729_adv_list">09a2f2811b021010f480fc86cc4bcbf0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SP Advanced List">09a2f2811b021010f480fc86cc4bcbf0</sys_scope>
+        <sys_security_acl display_value="x_207729_adv_list_instance">2e73b2091b021010f480fc86cc4bcb21</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_6673b2091b021010f480fc86cc4bcb24</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-15 08:53:15</sys_updated_on>
+        <sys_user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SP Advanced List">09a2f2811b021010f480fc86cc4bcbf0</application>
+        <file_path/>
+        <instance_id>2644c26bdb6dd780ff27d5b0cf961986</instance_id>
+        <instance_name>dev57125</instance_name>
+        <name>sys_security_acl_role_6673b2091b021010f480fc86cc4bcb24</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-07-15 08:53:15</sys_created_on><sys_id>6673b2091b021010f480fc86cc4bcb24</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_207729_adv_list_instance.admin</sys_name><sys_package display_value="SP Advanced List" source="x_207729_adv_list">09a2f2811b021010f480fc86cc4bcbf0</sys_package><sys_policy/><sys_scope display_value="SP Advanced List">09a2f2811b021010f480fc86cc4bcbf0</sys_scope><sys_security_acl display_value="x_207729_adv_list_instance">2e73b2091b021010f480fc86cc4bcb21</sys_security_acl><sys_update_name>sys_security_acl_role_6673b2091b021010f480fc86cc4bcb24</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-07-15 08:53:15</sys_updated_on><sys_user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-58845321</payload_hash>
+        <record_name>x_207729_adv_list_instance.admin</record_name>
+        <reverted_from/>
+        <source>89a2f2811b021010f480fc86cc4bcbf2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-15 08:53:15</sys_created_on>
+        <sys_id>ea73b2091b021010f480fc86cc4bcb26</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17351ad902b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-15 08:53:15</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>2673b20989021010175079c0bdfc9e26</update_guid>
+        <update_guid_history>2673b20989021010175079c0bdfc9e26:-58845321</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_207729_adv_list_instance.admin">4bb71acf1b061010f480fc86cc4bcb06</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-21 11:59:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>149fc40300144c2b8c67250612ec8eb1</sys_id>
+        <sys_metadata>6673b2091b021010f480fc86cc4bcb24</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_207729_adv_list_instance.admin</sys_name>
+        <sys_package display_value="SP Advanced List" source="x_207729_adv_list">09a2f2811b021010f480fc86cc4bcbf0</sys_package>
+        <sys_parent display_value="">2e73b2091b021010f480fc86cc4bcb21</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="SP Advanced List">09a2f2811b021010f480fc86cc4bcbf0</sys_scope>
+        <sys_scope_delete display_value="">1240737bed564758b22d7ec231602f84</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_6673b2091b021010f480fc86cc4bcb24</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_6673b2091b021010f480fc86cc4bcb24">ea73b2091b021010f480fc86cc4bcb26</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-21 11:59:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_data_policy2">
+    <sys_data_policy2 action="DELETE">
+        <active>true</active>
+        <apply_import_set>true</apply_import_set>
+        <apply_soap>true</apply_soap>
+        <conditions/>
+        <description/>
+        <enforce_ui>true</enforce_ui>
+        <inherit>false</inherit>
+        <model_id/>
+        <model_table>x_207729_adv_list_item_definition</model_table>
+        <reverse_if_false>true</reverse_if_false>
+        <short_description>Sets the Short description field to mandatory</short_description>
+        <sys_class_name>sys_data_policy2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-15 08:56:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>84347a091b021010f480fc86cc4bcb48</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sets the Short description field to mandatory</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="SP Advanced List" source="x_207729_adv_list">09a2f2811b021010f480fc86cc4bcbf0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SP Advanced List">09a2f2811b021010f480fc86cc4bcbf0</sys_scope>
+        <sys_update_name>sys_data_policy2_84347a091b021010f480fc86cc4bcb48</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-15 08:56:22</sys_updated_on>
+    </sys_data_policy2>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SP Advanced List">09a2f2811b021010f480fc86cc4bcbf0</application>
+        <file_path/>
+        <instance_id>2644c26bdb6dd780ff27d5b0cf961986</instance_id>
+        <instance_name>dev57125</instance_name>
+        <name>sys_data_policy2_84347a091b021010f480fc86cc4bcb48</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_data_policy2"><sys_data_policy2 action="INSERT_OR_UPDATE"><active>true</active><apply_import_set>true</apply_import_set><apply_soap>true</apply_soap><conditions/><description/><enforce_ui>true</enforce_ui><inherit>false</inherit><model_id/><model_table>x_207729_adv_list_item_definition</model_table><reverse_if_false>true</reverse_if_false><short_description>Sets the Short description field to mandatory</short_description><sys_class_name>sys_data_policy2</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-07-15 08:56:22</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>84347a091b021010f480fc86cc4bcb48</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Sets the Short description field to mandatory</sys_name><sys_overrides/><sys_package display_value="SP Advanced List" source="x_207729_adv_list">09a2f2811b021010f480fc86cc4bcbf0</sys_package><sys_policy/><sys_scope display_value="SP Advanced List">09a2f2811b021010f480fc86cc4bcbf0</sys_scope><sys_update_name>sys_data_policy2_84347a091b021010f480fc86cc4bcb48</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-07-15 08:56:22</sys_updated_on></sys_data_policy2></record_update>]]></payload>
+        <payload_hash>-798077638</payload_hash>
+        <record_name>Sets the Short description field to mandatory</record_name>
+        <reverted_from/>
+        <source>89a2f2811b021010f480fc86cc4bcbf2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-15 08:56:22</sys_created_on>
+        <sys_id>40347a091b021010f480fc86cc4bcb4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17351b067fb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-15 08:56:22</sys_updated_on>
+        <type>Data Policy</type>
+        <update_guid>48347a09190210104c21197286c9544a</update_guid>
+        <update_guid_history>48347a09190210104c21197286c9544a:-798077638</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-21 13:13:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_data_policy2">sys_data_policy2</sys_db_object>
+        <sys_id>54d58df037974df2ab4d3d93eae6b431</sys_id>
+        <sys_metadata>84347a091b021010f480fc86cc4bcb48</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sets the Short description field to mandatory</sys_name>
+        <sys_package display_value="SP Advanced List" source="x_207729_adv_list">09a2f2811b021010f480fc86cc4bcbf0</sys_package>
+        <sys_parent display_value="List item sources">7f243a091b021010f480fc86cc4bcbef</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="SP Advanced List">09a2f2811b021010f480fc86cc4bcbf0</sys_scope>
+        <sys_scope_delete display_value="">1240737bed564758b22d7ec231602f84</sys_scope_delete>
+        <sys_update_name>sys_data_policy2_84347a091b021010f480fc86cc4bcb48</sys_update_name>
+        <sys_update_version display_value="sys_data_policy2_84347a091b021010f480fc86cc4bcb48">40347a091b021010f480fc86cc4bcb4b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-21 13:13:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

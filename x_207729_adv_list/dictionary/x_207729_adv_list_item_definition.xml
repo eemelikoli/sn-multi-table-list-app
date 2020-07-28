@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Item definition" max_length="40" name="x_207729_adv_list_item_definition" type="collection">
-        <element attributes="edge_encryption_enabled=true" display="true" label="Item name" max_length="100" name="name" type="string"/>
+    <element label="List item sources" max_length="40" name="x_207729_adv_list_item_definition" sizeclass="2" type="collection">
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element dependent="table" dependent_on_field="table" label="Filter" max_length="4000" name="filter" type="conditions" use_dependent_field="true"/>
+        <element label="ID" mandatory="true" max_length="255" name="id" type="string"/>
+        <element attributes="iconset=fontawesome" label="Item icon" max_length="100" name="item_icon" type="glyphicon"/>
+        <element label="Item template" max_length="65000" name="item_template" type="html_template"/>
+        <element label="Link Parameters" max_length="4000" name="link_parameters" type="name_values"/>
+        <element label="Link URL" max_length="1024" name="link_url" type="url"/>
+        <element dependent="table" dependent_on_field="table" label="Meta Fields" max_length="40" name="meta_fields" type="field_list" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Source name" max_length="100" name="name" type="string"/>
+        <element dependent="table" dependent_on_field="table" label="Primary display fields" max_length="40" name="primary_fields" type="field_list" use_dependent_field="true"/>
+        <element dependent="table" dependent_on_field="table" label="Secondary display fields" max_length="40" name="secondary_fields" type="field_list" use_dependent_field="true"/>
         <element attributes="edge_encryption_enabled=true" label="Short description" max_length="255" name="short_description" type="string"/>
+        <element attributes="base_start=true" label="Table" mandatory="true" max_length="32" name="table" type="table_name"/>
+        <element attributes="allow_null=true,allow_references=true" dependent="table" dependent_on_field="table" label="Title Field" max_length="80" name="title_field" type="field_name" use_dependent_field="true"/>
+        <index name="index">
+            <element name="table"/>
+        </index>
     </element>
 </database>

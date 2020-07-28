@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="meta_fields" label="Meta Fields" language="en" table="x_207729_adv_list_item_definition">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>meta_fields</element>
+            <help/>
+            <hint/>
+            <label>Meta Fields</label>
+            <language>en</language>
+            <name>x_207729_adv_list_item_definition</name>
+            <plural>Meta Fields</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-07-27 09:04:21</sys_created_on>
+            <sys_id>4a19a8c11bd21010f480fc86cc4bcb28</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Meta Fields</sys_name>
+            <sys_package display_value="SP Advanced List" source="x_207729_adv_list">09a2f2811b021010f480fc86cc4bcbf0</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SP Advanced List">09a2f2811b021010f480fc86cc4bcbf0</sys_scope>
+            <sys_update_name>sys_documentation_x_207729_adv_list_item_definition_meta_fields_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-07-27 09:04:21</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
