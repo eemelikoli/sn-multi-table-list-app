@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="List instances" max_length="40" name="x_207729_adv_list_instance" sizeclass="1" type="collection">
-        <element label="Item instances" max_length="4000" name="item_instances" reference="x_207729_adv_list_item_definition" type="glide_list"/>
-        <element label="List description" max_length="1000" name="list_description" type="string"/>
-        <element label="List name" max_length="255" name="list_name" type="string"/>
-        <element label="List title" max_length="255" name="list_title" type="string"/>
-    </element>
-</database>

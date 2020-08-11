@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="" label="List Sources" language="en" table="x_207729_adv_list_item_definition">
+    <sys_documentation element="page" label="Page" language="en" table="x_207729_adv_list_item_definition">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element/>
+            <element>page</element>
             <help/>
             <hint/>
-            <label>List Sources</label>
+            <label>Page</label>
             <language>en</language>
             <name>x_207729_adv_list_item_definition</name>
-            <plural>List Sources</plural>
+            <plural>Pages</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-07-15 08:56:21</sys_created_on>
-            <sys_id>40343a091b021010f480fc86cc4bcbf3</sys_id>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_name>List Sources</sys_name>
+            <sys_created_on>2020-07-29 12:27:21</sys_created_on>
+            <sys_id>03ba63a51b9e1010f480fc86cc4bcb48</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Page</sys_name>
             <sys_package display_value="SP Advanced List" source="x_207729_adv_list">09a2f2811b021010f480fc86cc4bcbf0</sys_package>
             <sys_policy/>
             <sys_scope display_value="SP Advanced List">09a2f2811b021010f480fc86cc4bcbf0</sys_scope>
-            <sys_update_name>sys_documentation_x_207729_adv_list_item_definition__en</sys_update_name>
+            <sys_update_name>sys_documentation_x_207729_adv_list_item_definition_page_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-07-30 09:33:32</sys_updated_on>
+            <sys_updated_on>2020-07-29 12:27:21</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

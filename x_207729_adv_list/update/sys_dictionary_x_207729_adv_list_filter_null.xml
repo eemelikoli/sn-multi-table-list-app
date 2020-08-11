@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="title_field" table="x_207729_adv_list_item_definition">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="" table="x_207729_adv_list_filter">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>allow_null=true,allow_references=true</attributes>
+        <attributes/>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -14,28 +14,28 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Title Field</column_label>
+        <column_label/>
         <comments/>
         <create_roles/>
         <default_value/>
         <defaultsort/>
         <delete_roles/>
-        <dependent>table</dependent>
-        <dependent_on_field>table</dependent_on_field>
+        <dependent/>
+        <dependent_on_field/>
         <display>false</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>title_field</element>
+        <element/>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="">field_name</internal_type>
-        <mandatory>true</mandatory>
-        <max_length>80</max_length>
-        <name>x_207729_adv_list_item_definition</name>
+        <internal_type/>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <name>x_207729_adv_list_filter</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
@@ -52,20 +52,20 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-07-21 13:22:36</sys_created_on>
-        <sys_id>137aaa0f1b461010f480fc86cc4bcb62</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>Title Field</sys_name>
+        <sys_created_on>2020-07-28 10:17:09</sys_created_on>
+        <sys_id>4e5342dd1b121010f480fc86cc4bcbd1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_207729_adv_list_filter</sys_name>
         <sys_package display_value="SP Advanced List" source="x_207729_adv_list">09a2f2811b021010f480fc86cc4bcbf0</sys_package>
         <sys_policy/>
         <sys_scope display_value="SP Advanced List">09a2f2811b021010f480fc86cc4bcbf0</sys_scope>
-        <sys_update_name>sys_dictionary_x_207729_adv_list_item_definition_title_field</sys_update_name>
+        <sys_update_name>sys_dictionary_x_207729_adv_list_filter_null</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-01 10:31:45</sys_updated_on>
+        <sys_updated_on>2020-07-28 10:17:09</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
-        <use_dependent_field>true</use_dependent_field>
+        <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>

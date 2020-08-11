@@ -16,20 +16,24 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-21 10:23:20</sys_created_on>
         <sys_id>6ca102431b061010f480fc86cc4bcb9c</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name/>
         <sys_package display_value="SP Advanced List" source="x_207729_adv_list">09a2f2811b021010f480fc86cc4bcbf0</sys_package>
         <sys_policy/>
         <sys_scope display_value="SP Advanced List">09a2f2811b021010f480fc86cc4bcbf0</sys_scope>
         <sys_update_name>sp_instance_6ca102431b061010f480fc86cc4bcb9c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-21 14:29:32</sys_updated_on>
+        <sys_updated_on>2020-07-31 14:24:45</sys_updated_on>
         <title/>
         <url/>
         <widget_parameters><![CDATA[{
 	"instance": {
 		"value": "db496ecb1b461010f480fc86cc4bcb27",
 		"displayValue": "Created 2020-07-21 15:17:19"
+	},
+	"list_sources": {
+		"value": "1673540e1b121010f480fc86cc4bcb44,5432159a1b121010f480fc86cc4bcb2b,82f7d6561bd21010f480fc86cc4bcb39",
+		"displayValue": "Incidents (caller is current user), Incident (current user in watch list), Attachments"
 	}
 }]]></widget_parameters>
     </sp_instance>

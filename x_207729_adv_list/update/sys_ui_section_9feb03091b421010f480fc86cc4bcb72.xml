@@ -4,13 +4,13 @@
             <element>name</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-07-27 09:04:56</sys_created_on>
-            <sys_id>7639ecc11bd21010f480fc86cc4bcbc3</sys_id>
+            <sys_created_on>2020-07-31 09:11:29</sys_created_on>
+            <sys_id>e111111a1b121010f480fc86cc4bcb9d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Basic details" display_value="Basic details" name="x_207729_adv_list_item_definition" sys_domain="global" view="Default view">9feb03091b421010f480fc86cc4bcb72</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-07-27 09:04:56</sys_updated_on>
+            <sys_updated_on>2020-07-31 09:11:29</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>id</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-07-27 09:04:56</sys_created_on>
-            <sys_id>f639ecc11bd21010f480fc86cc4bcbc3</sys_id>
+            <sys_created_on>2020-07-31 09:11:29</sys_created_on>
+            <sys_id>6511111a1b121010f480fc86cc4bcb9d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Basic details" display_value="Basic details" name="x_207729_adv_list_item_definition" sys_domain="global" view="Default view">9feb03091b421010f480fc86cc4bcb72</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-07-27 09:04:56</sys_updated_on>
+            <sys_updated_on>2020-07-31 09:11:29</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>short_description</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-07-27 09:04:56</sys_created_on>
-            <sys_id>7a39ecc11bd21010f480fc86cc4bcbc3</sys_id>
+            <sys_created_on>2020-07-31 09:11:29</sys_created_on>
+            <sys_id>e511111a1b121010f480fc86cc4bcb9d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Basic details" display_value="Basic details" name="x_207729_adv_list_item_definition" sys_domain="global" view="Default view">9feb03091b421010f480fc86cc4bcb72</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-07-27 09:04:56</sys_updated_on>
+            <sys_updated_on>2020-07-31 09:11:29</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>.split</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-07-27 09:04:56</sys_created_on>
-            <sys_id>fa39ecc11bd21010f480fc86cc4bcbc3</sys_id>
+            <sys_created_on>2020-07-31 09:11:29</sys_created_on>
+            <sys_id>6911111a1b121010f480fc86cc4bcb9d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Basic details" display_value="Basic details" name="x_207729_adv_list_item_definition" sys_domain="global" view="Default view">9feb03091b421010f480fc86cc4bcb72</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-07-27 09:04:56</sys_updated_on>
+            <sys_updated_on>2020-07-31 09:11:29</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>active</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-07-27 09:04:56</sys_created_on>
-            <sys_id>7e39ecc11bd21010f480fc86cc4bcbc3</sys_id>
+            <sys_created_on>2020-07-31 09:11:29</sys_created_on>
+            <sys_id>e911111a1b121010f480fc86cc4bcb9d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Basic details" display_value="Basic details" name="x_207729_adv_list_item_definition" sys_domain="global" view="Default view">9feb03091b421010f480fc86cc4bcb72</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-07-27 09:04:56</sys_updated_on>
+            <sys_updated_on>2020-07-31 09:11:29</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
