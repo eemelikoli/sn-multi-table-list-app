@@ -53,15 +53,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-29 12:17:15</sys_created_on>
-        <sys_id>7b582fa11b9e1010f480fc86cc4bcb27</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_id>0e66bd941b031010f480fc86cc4bcb99</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Type</sys_name>
         <sys_package display_value="SP Advanced List" source="x_207729_adv_list">09a2f2811b021010f480fc86cc4bcbf0</sys_package>
         <sys_policy/>
         <sys_scope display_value="SP Advanced List">09a2f2811b021010f480fc86cc4bcbf0</sys_scope>
         <sys_update_name>sys_dictionary_x_207729_adv_list_item_definition_type</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-01 10:31:45</sys_updated_on>
+        <sys_updated_on>2020-08-31 13:33:50</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

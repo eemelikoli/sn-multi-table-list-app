@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="link_fields" label="Link Parameter Fields" language="en" table="x_207729_adv_list_item_definition">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>link_fields</element>
+            <help>List of fields on the given table that can be used to generate name/value pairs for link parameters on records.</help>
+            <hint>List of fields on the given table that can be used to generate name/value pairs for link parameters on records.</hint>
+            <label>Link Parameter Fields</label>
+            <language>en</language>
+            <name>x_207729_adv_list_item_definition</name>
+            <plural>Link Parameter Fields</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-08-31 13:38:17</sys_created_on>
+            <sys_id>0877b5181b031010f480fc86cc4bcbfd</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>Link Parameter Fields</sys_name>
+            <sys_package display_value="SP Advanced List" source="x_207729_adv_list">09a2f2811b021010f480fc86cc4bcbf0</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SP Advanced List">09a2f2811b021010f480fc86cc4bcbf0</sys_scope>
+            <sys_update_name>sys_documentation_x_207729_adv_list_item_definition_link_fields_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-08-31 13:46:04</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -4,13 +4,13 @@
             <element>type</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-07-30 09:35:43</sys_created_on>
-            <sys_id>fa0d440a1b121010f480fc86cc4bcb3d</sys_id>
+            <sys_created_on>2020-08-31 13:42:40</sys_created_on>
+            <sys_id>1478f1581b031010f480fc86cc4bcbf9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Behaviour" display_value="Behaviour" name="x_207729_adv_list_item_definition" sys_domain="global" view="Default view">82d528411bd21010f480fc86cc4bcb63</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-07-30 09:35:43</sys_updated_on>
+            <sys_updated_on>2020-08-31 13:42:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>link_url</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-07-30 09:35:43</sys_created_on>
-            <sys_id>720d440a1b121010f480fc86cc4bcb3e</sys_id>
+            <sys_created_on>2020-08-31 13:42:40</sys_created_on>
+            <sys_id>9478f1581b031010f480fc86cc4bcbf9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Behaviour" display_value="Behaviour" name="x_207729_adv_list_item_definition" sys_domain="global" view="Default view">82d528411bd21010f480fc86cc4bcb63</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-07-30 09:35:43</sys_updated_on>
+            <sys_updated_on>2020-08-31 13:42:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,27 +32,41 @@
             <element>page</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-07-30 09:35:43</sys_created_on>
-            <sys_id>f60d440a1b121010f480fc86cc4bcb3e</sys_id>
+            <sys_created_on>2020-08-31 13:42:40</sys_created_on>
+            <sys_id>1878f1581b031010f480fc86cc4bcbf9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Behaviour" display_value="Behaviour" name="x_207729_adv_list_item_definition" sys_domain="global" view="Default view">82d528411bd21010f480fc86cc4bcb63</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-07-30 09:35:43</sys_updated_on>
+            <sys_updated_on>2020-08-31 13:42:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>link_fields</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-08-31 13:42:40</sys_created_on>
+            <sys_id>9878f1581b031010f480fc86cc4bcbf9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Behaviour" display_value="Behaviour" name="x_207729_adv_list_item_definition" sys_domain="global" view="Default view">82d528411bd21010f480fc86cc4bcb63</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-08-31 13:42:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>link_parameters</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-07-30 09:35:43</sys_created_on>
-            <sys_id>7e0d440a1b121010f480fc86cc4bcb3e</sys_id>
+            <sys_created_on>2020-08-31 13:42:40</sys_created_on>
+            <sys_id>1c78f1581b031010f480fc86cc4bcbf9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Behaviour" display_value="Behaviour" name="x_207729_adv_list_item_definition" sys_domain="global" view="Default view">82d528411bd21010f480fc86cc4bcb63</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-07-30 09:35:43</sys_updated_on>
+            <sys_updated_on>2020-08-31 13:42:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

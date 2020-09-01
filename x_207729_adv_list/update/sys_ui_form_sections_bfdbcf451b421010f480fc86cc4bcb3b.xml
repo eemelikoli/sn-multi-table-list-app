@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="bfdbcf451b421010f480fc86cc4bcb3b" sys_domain="global" table="x_207729_adv_list_instance" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-07-15 10:39:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c8ebcfc51b421010f480fc86cc4bcb7f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_207729_adv_list_instance" name="x_207729_adv_list_instance" sys_domain="global" view="Default view">bfdbcf451b421010f480fc86cc4bcb3b</sys_ui_form>
+            <sys_ui_section display_value="">f7dbcfc51b421010f480fc86cc4bcb7a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-07-15 10:39:51</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-07-15 10:39:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c4ebcfc51b421010f480fc86cc4bcb89</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_207729_adv_list_instance" name="x_207729_adv_list_instance" sys_domain="global" view="Default view">bfdbcf451b421010f480fc86cc4bcb3b</sys_ui_form>
+            <sys_ui_section display_value="">c0ebcfc51b421010f480fc86cc4bcb80</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-07-15 10:39:51</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-07-15 10:39:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7bdbcfc51b421010f480fc86cc4bcb79</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_207729_adv_list_instance" name="x_207729_adv_list_instance" sys_domain="global" view="Default view">bfdbcf451b421010f480fc86cc4bcb3b</sys_ui_form>
+            <sys_ui_section display_value="">73dbcf451b421010f480fc86cc4bcb3f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-07-15 10:39:51</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_207729_adv_list_instance</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-07-15 10:39:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bfdbcf451b421010f480fc86cc4bcb3b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_207729_adv_list_instance</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="SP Advanced List" source="x_207729_adv_list">09a2f2811b021010f480fc86cc4bcbf0</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="SP Advanced List">09a2f2811b021010f480fc86cc4bcbf0</sys_scope>
+            <sys_update_name>sys_ui_form_sections_bfdbcf451b421010f480fc86cc4bcb3b</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-07-15 10:39:50</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

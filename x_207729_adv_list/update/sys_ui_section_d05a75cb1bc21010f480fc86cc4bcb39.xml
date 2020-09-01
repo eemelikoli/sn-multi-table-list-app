@@ -4,13 +4,13 @@
             <element>table</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-07-30 10:26:26</sys_created_on>
-            <sys_id>6da8d4ce1b121010f480fc86cc4bcb70</sys_id>
+            <sys_created_on>2020-08-31 13:56:57</sys_created_on>
+            <sys_id>69bbb5d81b031010f480fc86cc4bcb41</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Data" display_value="Data" name="x_207729_adv_list_item_definition" sys_domain="global" view="Default view">d05a75cb1bc21010f480fc86cc4bcb39</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-07-30 10:26:26</sys_updated_on>
+            <sys_updated_on>2020-08-31 13:56:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,69 +18,83 @@
             <element>filter</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-07-30 10:26:26</sys_created_on>
-            <sys_id>e1a8d4ce1b121010f480fc86cc4bcb71</sys_id>
+            <sys_created_on>2020-08-31 13:56:57</sys_created_on>
+            <sys_id>e9bbb5d81b031010f480fc86cc4bcb41</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Data" display_value="Data" name="x_207729_adv_list_item_definition" sys_domain="global" view="Default view">d05a75cb1bc21010f480fc86cc4bcb39</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-07-30 10:26:26</sys_updated_on>
+            <sys_updated_on>2020-08-31 13:56:57</sys_updated_on>
             <sys_user/>
             <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-08-31 13:56:57</sys_created_on>
+            <sys_id>6dbbb5d81b031010f480fc86cc4bcb41</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Data" display_value="Data" name="x_207729_adv_list_item_definition" sys_domain="global" view="Default view">d05a75cb1bc21010f480fc86cc4bcb39</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-08-31 13:56:57</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>title_field</element>
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-07-30 10:26:26</sys_created_on>
-            <sys_id>69a8d4ce1b121010f480fc86cc4bcb71</sys_id>
+            <sys_created_on>2020-08-31 13:56:57</sys_created_on>
+            <sys_id>edbbb5d81b031010f480fc86cc4bcb41</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Data" display_value="Data" name="x_207729_adv_list_item_definition" sys_domain="global" view="Default view">d05a75cb1bc21010f480fc86cc4bcb39</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-07-30 10:26:26</sys_updated_on>
+            <sys_updated_on>2020-08-31 13:56:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>primary_fields</element>
-            <position>3</position>
+            <element>.end_split</element>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-07-30 10:26:26</sys_created_on>
-            <sys_id>eda8d4ce1b121010f480fc86cc4bcb71</sys_id>
+            <sys_created_on>2020-08-31 13:56:57</sys_created_on>
+            <sys_id>61bbb5d81b031010f480fc86cc4bcb42</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Data" display_value="Data" name="x_207729_adv_list_item_definition" sys_domain="global" view="Default view">d05a75cb1bc21010f480fc86cc4bcb39</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-07-30 10:26:26</sys_updated_on>
+            <sys_updated_on>2020-08-31 13:56:57</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>primary_fields</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-08-31 13:56:57</sys_created_on>
+            <sys_id>e1bbb5d81b031010f480fc86cc4bcb42</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Data" display_value="Data" name="x_207729_adv_list_item_definition" sys_domain="global" view="Default view">d05a75cb1bc21010f480fc86cc4bcb39</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-08-31 13:56:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>secondary_fields</element>
-            <position>4</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-07-30 10:26:26</sys_created_on>
-            <sys_id>65a8d4ce1b121010f480fc86cc4bcb72</sys_id>
+            <sys_created_on>2020-08-31 13:56:57</sys_created_on>
+            <sys_id>65bbb5d81b031010f480fc86cc4bcb42</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Data" display_value="Data" name="x_207729_adv_list_item_definition" sys_domain="global" view="Default view">d05a75cb1bc21010f480fc86cc4bcb39</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-07-30 10:26:26</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>meta_fields</element>
-            <position>5</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-07-30 10:26:26</sys_created_on>
-            <sys_id>e9a8d4ce1b121010f480fc86cc4bcb72</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Data" display_value="Data" name="x_207729_adv_list_item_definition" sys_domain="global" view="Default view">d05a75cb1bc21010f480fc86cc4bcb39</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-07-30 10:26:26</sys_updated_on>
+            <sys_updated_on>2020-08-31 13:56:57</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
