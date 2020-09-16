@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_angular_provider">
+    <sp_angular_provider action="INSERT_OR_UPDATE">
+        <name>sortService</name>
+        <script><![CDATA[function sortService () {
+
+	return {
+		defaultSort: function defaultSort(arr, sortBy, sortAsc) {
+			return arr.sort(function (a, b) {
+				if (sortAsc) {
+					if (a[sortBy] < b[sortBy]) {
+						return -1;
+					}
+					if (a[sortBy] > b[sortBy]) {
+						return 1;
+					}
+					return 0;
+				}
+
+				if (a[sortBy] > b[sortBy]) {
+					return -1;
+				}
+				if (a[sortBy] < b[sortBy]) {
+					return 1;
+				}
+				return 0;
+			});
+		},
+
+		localeSort: function localeSort(arr, sortBy, sortAsc) {
+			return arr.sort(function (a, b) {
+				var sortVal = a[sortBy].toLowerCase().localeCompare(b[sortBy].toLowerCase());
+				if (!sortAsc) {
+					return sortVal * (-1);
+				}
+				return sortVal;
+			});
+		},
+
+		dateSort: function dateSort(arr, sortBy, sortAsc) {
+			return arr.sort(function (a, b) {
+				var dateA = new Date(a[sortBy]),
+					dateB = new Date(b[sortBy]),
+					sortVal = dateA - dateB;
+
+				if (!sortAsc) {
+					return sortVal * (-1);
+				}
+				return sortVal;
+			});
+		}
+	};
+
+}]]></script>
+        <sys_class_name>sp_angular_provider</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-01 08:21:19</sys_created_on>
+        <sys_id>eef73da01b031010f480fc86cc4bcb28</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>sortService</sys_name>
+        <sys_package display_value="SP Advanced List" source="x_207729_adv_list">09a2f2811b021010f480fc86cc4bcbf0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SP Advanced List">09a2f2811b021010f480fc86cc4bcbf0</sys_scope>
+        <sys_update_name>sp_angular_provider_eef73da01b031010f480fc86cc4bcb28</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-01 08:43:35</sys_updated_on>
+        <type>service</type>
+    </sp_angular_provider>
+</record_update>

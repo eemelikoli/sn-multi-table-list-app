@@ -1,72 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="Behaviour" section_id="82d528411bd21010f480fc86cc4bcb63" sys_domain="global" table="x_207729_adv_list_item_definition" version="3" view="">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-03 12:41:35</sys_created_on>
+            <sys_id>fe378d191b831010f480fc86cc4bcb27</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-03 12:41:35</sys_updated_on>
+            <text>Define the behaviour when a user clicks on a record derived from this source.</text>
+            <type display_value="Section Details">19756e5ec3313000bac1addbdfba8f18</type>
+        </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>type</element>
+            <element>fe378d191b831010f480fc86cc4bcb27</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-08-31 13:42:40</sys_created_on>
-            <sys_id>1478f1581b031010f480fc86cc4bcbf9</sys_id>
+            <sys_created_on>2020-09-03 12:41:35</sys_created_on>
+            <sys_id>fe378d191b831010f480fc86cc4bcb2a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Behaviour" display_value="Behaviour" name="x_207729_adv_list_item_definition" sys_domain="global" view="Default view">82d528411bd21010f480fc86cc4bcb63</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-08-31 13:42:40</sys_updated_on>
+            <sys_updated_on>2020-09-03 12:41:35</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>type</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-03 12:41:35</sys_created_on>
+            <sys_id>72378d191b831010f480fc86cc4bcb2b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Behaviour" display_value="Behaviour" name="x_207729_adv_list_item_definition" sys_domain="global" view="Default view">82d528411bd21010f480fc86cc4bcb63</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-03 12:41:35</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>link_url</element>
-            <position>1</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-08-31 13:42:40</sys_created_on>
-            <sys_id>9478f1581b031010f480fc86cc4bcbf9</sys_id>
+            <sys_created_on>2020-09-03 12:41:35</sys_created_on>
+            <sys_id>f2378d191b831010f480fc86cc4bcb2b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Behaviour" display_value="Behaviour" name="x_207729_adv_list_item_definition" sys_domain="global" view="Default view">82d528411bd21010f480fc86cc4bcb63</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-08-31 13:42:40</sys_updated_on>
+            <sys_updated_on>2020-09-03 12:41:35</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>page</element>
-            <position>2</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-08-31 13:42:40</sys_created_on>
-            <sys_id>1878f1581b031010f480fc86cc4bcbf9</sys_id>
+            <sys_created_on>2020-09-03 12:41:35</sys_created_on>
+            <sys_id>76378d191b831010f480fc86cc4bcb2b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Behaviour" display_value="Behaviour" name="x_207729_adv_list_item_definition" sys_domain="global" view="Default view">82d528411bd21010f480fc86cc4bcb63</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-08-31 13:42:40</sys_updated_on>
+            <sys_updated_on>2020-09-03 12:41:35</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>link_fields</element>
-            <position>3</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-08-31 13:42:40</sys_created_on>
-            <sys_id>9878f1581b031010f480fc86cc4bcbf9</sys_id>
+            <sys_created_on>2020-09-03 12:41:35</sys_created_on>
+            <sys_id>f6378d191b831010f480fc86cc4bcb2b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Behaviour" display_value="Behaviour" name="x_207729_adv_list_item_definition" sys_domain="global" view="Default view">82d528411bd21010f480fc86cc4bcb63</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-08-31 13:42:40</sys_updated_on>
+            <sys_updated_on>2020-09-03 12:41:35</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>link_parameters</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-08-31 13:42:40</sys_created_on>
-            <sys_id>1c78f1581b031010f480fc86cc4bcbf9</sys_id>
+            <sys_created_on>2020-09-03 12:41:35</sys_created_on>
+            <sys_id>7a378d191b831010f480fc86cc4bcb2b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Behaviour" display_value="Behaviour" name="x_207729_adv_list_item_definition" sys_domain="global" view="Default view">82d528411bd21010f480fc86cc4bcb63</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-08-31 13:42:40</sys_updated_on>
+            <sys_updated_on>2020-09-03 12:41:35</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

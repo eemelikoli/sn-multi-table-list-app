@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>active</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Validate ID on submit</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+	g_form.hideFieldMsg('id');
+	g_form.removeDecoration('id');
+	if (g_scratchpad.isFormValid) {
+		return true;
+	}
+	var actionName = g_form.getActionName();
+	var ga = new GlideAjax("ValidateSourceID");
+		ga.addParam('sysparm_name', 'validateTakenID');
+		ga.addParam('id', g_form.getValue('id'));
+		ga.addParam('sys_id', g_form.getUniqueValue());
+		ga.getXMLAnswer(function (answer) {
+			if (answer === 'false') { // false means ID does not exist yet
+				g_scratchpad.isFormValid = true;
+				g_form.submit(actionName);
+			} else {
+				g_form.showFieldMsg('id', 'ID must be unique, the provided ID already exists', 'error');
+				g_form.addDecoration('id', 'icon-alert', 'ID must be unique, the provided ID already exists', 'red');
+			}
+		});
+	return false;
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-03 11:22:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>86f4341d1b431010f480fc86cc4bcb2b</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Validate ID on submit</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="SP Advanced List" source="x_207729_adv_list">09a2f2811b021010f480fc86cc4bcbf0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SP Advanced List">09a2f2811b021010f480fc86cc4bcbf0</sys_scope>
+        <sys_update_name>sys_script_client_86f4341d1b431010f480fc86cc4bcb2b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-03 11:50:56</sys_updated_on>
+        <table>x_207729_adv_list_item_definition</table>
+        <type>onSubmit</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

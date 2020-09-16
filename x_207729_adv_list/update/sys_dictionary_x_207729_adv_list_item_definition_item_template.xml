@@ -17,20 +17,7 @@
         <column_label>Item template</column_label>
         <comments/>
         <create_roles/>
-        <default_value>&lt;h3 class="item-title"&gt;{{item.title}}&lt;/h3&gt;&#13;
-&lt;ul class="primary-content list-inline"&gt;&#13;
-    &lt;li ng-repeat="field in item.primary_fields"&gt;&#13;
-        &lt;small class="text-muted"&gt;{{field.label}}&lt;/small&gt;&#13;
-        &lt;p&gt;{{field.display_value}}&lt;/p&gt;&#13;
-    &lt;/li&gt;&#13;
-&lt;/ul&gt;&#13;
-&#13;
-&lt;ul class="secondary-content" ng-if="item.secondary_fields.length &gt; 0"&gt;&#13;
-    &lt;li ng-repeat="field in item.secondary_fields"&gt;&#13;
-        &lt;small class="text-muted"&gt;{{field.label}}&lt;/small&gt;&#13;
-        &lt;p&gt;{{field.display_value}}&lt;/p&gt;&#13;
-    &lt;/li&gt;&#13;
-&lt;/ul&gt;</default_value>
+        <default_value/>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -67,14 +54,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-21 09:48:56</sys_created_on>
         <sys_id>4266bd941b031010f480fc86cc4bcb8e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Item template</sys_name>
         <sys_package display_value="SP Advanced List" source="x_207729_adv_list">09a2f2811b021010f480fc86cc4bcbf0</sys_package>
         <sys_policy/>
         <sys_scope display_value="SP Advanced List">09a2f2811b021010f480fc86cc4bcbf0</sys_scope>
         <sys_update_name>sys_dictionary_x_207729_adv_list_item_definition_item_template</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-08-31 13:33:49</sys_updated_on>
+        <sys_updated_on>2020-09-03 12:33:56</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

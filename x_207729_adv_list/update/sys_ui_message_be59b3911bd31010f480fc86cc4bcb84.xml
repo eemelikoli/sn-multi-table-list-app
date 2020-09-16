@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application>SP Advanced List</application>
+        <key>oldest_first</key>
+        <language>en</language>
+        <message>Oldest First</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-16 11:55:52</sys_created_on>
+        <sys_id>be59b3911bd31010f480fc86cc4bcb84</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>oldest_first</sys_name>
+        <sys_package display_value="SP Advanced List" source="x_207729_adv_list">09a2f2811b021010f480fc86cc4bcbf0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SP Advanced List">09a2f2811b021010f480fc86cc4bcbf0</sys_scope>
+        <sys_update_name>sys_ui_message_be59b3911bd31010f480fc86cc4bcb84</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-16 11:55:52</sys_updated_on>
+    </sys_ui_message>
+</record_update>

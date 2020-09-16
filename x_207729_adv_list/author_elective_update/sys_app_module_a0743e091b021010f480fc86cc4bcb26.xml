@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="SP Advanced List">ec7436811b021010f480fc86cc4bcb7a</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>SEPARATOR</link_type>
+        <map_page/>
+        <mobile_title>Item definition</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name/>
+        <order>4</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-15 08:57:29</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a0743e091b021010f480fc86cc4bcb26</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>List Sources</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="SP Advanced List" source="x_207729_adv_list">09a2f2811b021010f480fc86cc4bcbf0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SP Advanced List">09a2f2811b021010f480fc86cc4bcbf0</sys_scope>
+        <sys_update_name>sys_app_module_a0743e091b021010f480fc86cc4bcb26</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-01 11:54:01</sys_updated_on>
+        <timeline_page/>
+        <title>List Sources</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SP Advanced List">09a2f2811b021010f480fc86cc4bcbf0</application>
+        <file_path/>
+        <instance_id>2644c26bdb6dd780ff27d5b0cf961986</instance_id>
+        <instance_name>dev57125</instance_name>
+        <name>sys_app_module_a0743e091b021010f480fc86cc4bcb26</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="SP Advanced List">ec7436811b021010f480fc86cc4bcb7a</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>SEPARATOR</link_type><map_page/><mobile_title>Item definition</mobile_title><mobile_view_name>Mobile</mobile_view_name><name/><order>4</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-07-15 08:57:29</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a0743e091b021010f480fc86cc4bcb26</sys_id><sys_mod_count>1</sys_mod_count><sys_name>List Sources</sys_name><sys_overrides/><sys_package display_value="SP Advanced List" source="x_207729_adv_list">09a2f2811b021010f480fc86cc4bcbf0</sys_package><sys_policy/><sys_scope display_value="SP Advanced List">09a2f2811b021010f480fc86cc4bcbf0</sys_scope><sys_update_name>sys_app_module_a0743e091b021010f480fc86cc4bcb26</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-01 11:54:01</sys_updated_on><timeline_page/><title>List Sources</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-1863098195</payload_hash>
+        <record_name>List Sources</record_name>
+        <reverted_from/>
+        <source>0a76b1d41b031010f480fc86cc4bcb4e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-01 11:54:01</sys_created_on>
+        <sys_id>5a296e241b831010f480fc86cc4bcb79</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17449844d790000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-01 11:54:01</sys_updated_on>
+        <type>Module</type>
+        <update_guid>d2296e244083101024b2ffdbf83cad79</update_guid>
+        <update_guid_history>d2296e244083101024b2ffdbf83cad79:-1863098195,8f66fd94cb0310100b1ceaab4cef2de5:0,50667d944f031010e877c943077d0d24:692096733,a0743e0969021010a1b129c3ad6b3e27:1165966185</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="List Sources">0b3a1ee11bcf1010f480fc86cc4bcb15</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-04 13:22:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>008fe922c28244988000b9e8bc3b9e40</sys_id>
+        <sys_metadata>a0743e091b021010f480fc86cc4bcb26</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>List Sources</sys_name>
+        <sys_package display_value="SP Advanced List" source="x_207729_adv_list">09a2f2811b021010f480fc86cc4bcbf0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="SP Advanced List">09a2f2811b021010f480fc86cc4bcbf0</sys_scope>
+        <sys_scope_delete display_value="">1240737bed564758b22d7ec231602f84</sys_scope_delete>
+        <sys_update_name>sys_app_module_a0743e091b021010f480fc86cc4bcb26</sys_update_name>
+        <sys_update_version display_value="sys_app_module_a0743e091b021010f480fc86cc4bcb26">5a296e241b831010f480fc86cc4bcb79</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-04 13:22:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,30 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="Presentation" section_id="585a75cb1bc21010f480fc86cc4bcb3a" sys_domain="global" table="x_207729_adv_list_item_definition" version="3" view="">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-03 12:41:35</sys_created_on>
+            <sys_id>fa378d191b831010f480fc86cc4bcb30</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-03 12:41:35</sys_updated_on>
+            <text>Define how each record derived from this source is displayed in the list.</text>
+            <type display_value="Section Details">19756e5ec3313000bac1addbdfba8f18</type>
+        </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>item_icon</element>
+            <element>fa378d191b831010f480fc86cc4bcb30</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-07-30 10:26:26</sys_created_on>
-            <sys_id>eda8d4ce1b121010f480fc86cc4bcb7c</sys_id>
+            <sys_created_on>2020-09-03 12:41:35</sys_created_on>
+            <sys_id>fe378d191b831010f480fc86cc4bcb32</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Presentation" display_value="Presentation" name="x_207729_adv_list_item_definition" sys_domain="global" view="Default view">585a75cb1bc21010f480fc86cc4bcb3a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-07-30 10:26:26</sys_updated_on>
+            <sys_updated_on>2020-09-03 12:41:35</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>item_icon</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-03 12:41:35</sys_created_on>
+            <sys_id>72378d191b831010f480fc86cc4bcb33</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Presentation" display_value="Presentation" name="x_207729_adv_list_item_definition" sys_domain="global" view="Default view">585a75cb1bc21010f480fc86cc4bcb3a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-03 12:41:35</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>item_template</element>
-            <position>1</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-07-30 10:26:26</sys_created_on>
-            <sys_id>65a8d4ce1b121010f480fc86cc4bcb7d</sys_id>
+            <sys_created_on>2020-09-03 12:41:35</sys_created_on>
+            <sys_id>f2378d191b831010f480fc86cc4bcb33</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Presentation" display_value="Presentation" name="x_207729_adv_list_item_definition" sys_domain="global" view="Default view">585a75cb1bc21010f480fc86cc4bcb3a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-07-30 10:26:26</sys_updated_on>
+            <sys_updated_on>2020-09-03 12:41:35</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

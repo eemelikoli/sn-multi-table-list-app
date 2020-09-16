@@ -3,8 +3,16 @@
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>link_parameters</element>
             <help/>
-            <hint>Name / value pairs which are added to record link URLs.&#13;
-Eg. {sys_id: sys_id}</hint>
+            <hint>Name / value pairs which will be added to the record link URL as parameters.&#13;
+Parameters can be static or dynamic based on field values on the records. Following fields are available for every record: sys_id, sys_class_name.&#13;
+If you want to use sys_id or sys_class_name prefix the field name with "record.".&#13;
+If you want to use values from "Link Parameter Fields" prefix the field name with "field.".&#13;
+Usage example:&#13;
+ {&#13;
+"param_name": "param value",&#13;
+"param_name": "record.sys_class_name",&#13;
+"param_name": "field.field_name"&#13;
+}</hint>
             <label>Link Parameters</label>
             <language>en</language>
             <name>x_207729_adv_list_item_definition</name>
@@ -13,14 +21,14 @@ Eg. {sys_id: sys_id}</hint>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-07-27 08:48:28</sys_created_on>
             <sys_id>4666bd941b031010f480fc86cc4bcb8f</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>5</sys_mod_count>
             <sys_name>Link Parameters</sys_name>
             <sys_package display_value="SP Advanced List" source="x_207729_adv_list">09a2f2811b021010f480fc86cc4bcbf0</sys_package>
             <sys_policy/>
             <sys_scope display_value="SP Advanced List">09a2f2811b021010f480fc86cc4bcbf0</sys_scope>
             <sys_update_name>sys_documentation_x_207729_adv_list_item_definition_link_parameters_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-08-31 13:54:50</sys_updated_on>
+            <sys_updated_on>2020-09-16 10:02:15</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
