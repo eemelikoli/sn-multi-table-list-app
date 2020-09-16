@@ -321,7 +321,7 @@
       "link_parameters",
       "page"
     ],
-    // TODO: Move search and sorting logic to it's own widget
+    // TODO?: Move search and sorting logic to it's own widget
     SORT_OPTIONS = [{
         id: 1,
         field: "title",
@@ -353,8 +353,8 @@
     ];
 
   var initializedSources = [],
-    pageSize = 12;
-  data.sortOptions = SORT_OPTIONS;
+    pageSize = 10; // TODO: allow page size to be set in instanse options
+    data.sortOptions = SORT_OPTIONS;
 
   // in order to keep the options beyond initial load we need to pass them to data object
   if (options) {
@@ -457,15 +457,8 @@ function initializeListSources(
   return sourceConfigs;
 }
 
-/**
- *
- * @param {string} table name of the table where the query is constructed
- * @param {string} filter filter to be applied
- * @param {string} orderBy field name to order the query
- * @param {boolean} orderAsc ascending (true) or descencing (false, default) ordering
- * @param {int} limit how many records should be returned from the query
- * @returns {glideRecord obj} queried gliderecord object
- */
+
+
 function generateGliderecord(table, filter, o) {
   var query = new GlideRecordSecure(table);
 
@@ -496,18 +489,6 @@ function generateGliderecord(table, filter, o) {
   return query;
 }
 
-function getNoRecords(table, encodedQuery) {
-  var noRecords = 0,
-    count = new GlideAggregate(table);
-  count.addEncodedQuery(encodedQuery);
-  count.addAggregate("COUNT");
-  count.query();
-
-  if (count.next()) {
-    noRecords = count.getAggregate("COUNT");
-  }
-  return noRecords;
-}
 
 function getRecords(query, source) {
   var records = [],
@@ -570,21 +551,19 @@ function generateURL(record, urlObj) {
     if (parms.hasOwnProperty(key)) {
       var parm = parms[key],
           value = "";
-
       if(parm.split('.')[0] === 'record'){
         value = record[parm];
       }
-
       if(parm.split('.')[0] === 'field'){
         value = record.link_fields[parm];
       }
-
       if (value === "") {
         value = parm;
       }
       url.parms[key] = value;
     }
   }
+
   return url;
 }
 
@@ -630,14 +609,14 @@ function errorMsgProvider(errorType, arg1, arg2) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-15 09:23:49</sys_created_on>
         <sys_id>d27abec91b021010f480fc86cc4bcbb4</sys_id>
-        <sys_mod_count>870</sys_mod_count>
+        <sys_mod_count>872</sys_mod_count>
         <sys_name>SP Advanced List</sys_name>
         <sys_package display_value="SP Advanced List" source="x_207729_adv_list">09a2f2811b021010f480fc86cc4bcbf0</sys_package>
         <sys_policy/>
         <sys_scope display_value="SP Advanced List">09a2f2811b021010f480fc86cc4bcbf0</sys_scope>
         <sys_update_name>sp_widget_d27abec91b021010f480fc86cc4bcbb4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-16 12:08:13</sys_updated_on>
+        <sys_updated_on>2020-09-16 12:32:45</sys_updated_on>
         <template><![CDATA[<div id="title" class="col-xs-12" role="" ng-if="::options.hide_title === 'false'">
     <h1>{{::options.title || "Hello there!"}}</h1>
 </div>
