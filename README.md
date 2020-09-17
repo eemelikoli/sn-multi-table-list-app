@@ -8,7 +8,7 @@ To be added
 # How to use application
 
 ### 1. Create a data source for a list.
-<img width="1080" alt="Screenshot 2020-09-16 at 15 40 55" src="https://user-images.githubusercontent.com/34348034/93457590-dac99800-f8e7-11ea-889f-657bad25bf0a.png" style="max-width:100%;">
+![image](https://user-images.githubusercontent.com/34348034/93457590-dac99800-f8e7-11ea-889f-657bad25bf0a.png)
 
 #### Basic details
 Source name - name for this data source  
@@ -35,8 +35,9 @@ Item icon - FontAwesome icon that is displayed at the left side of the record on
 Item template - How the data on the record is displayed in the list      
     
 ## 2. Add Advanced list widget to Service Portal page
+![image](https://user-images.githubusercontent.com/34348034/93462700-65fa5c00-f8ef-11ea-8761-f69689fdac86.png)
 
-
+Include the SP Avanced List widget to a Service Portal page  
 
 ## 3. In the widget instance options add the list sources you want to use in your list.
 
