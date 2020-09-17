@@ -8,6 +8,8 @@ To be added
 # How to use application
 
 ### 1. Create a data source for a list.
+<img width="1080" alt="Screenshot 2020-09-16 at 15 40 55" src="https://user-images.githubusercontent.com/34348034/93457590-dac99800-f8e7-11ea-889f-657bad25bf0a.png" style="max-width:100%;">
+
 #### Basic details
 Source name - name for this data source  
 ID - unique id for this data source  
@@ -30,10 +32,7 @@ Link Parameters - Name/value pairs of URL parameters that will be added to the U
 
 #### Presentation
 Item icon - FontAwesome icon that is displayed at the left side of the record on the list  
-Item template - How the data on the record is displayed in the list  
-    
-<img width="1399" alt="Screenshot 2020-09-16 at 15 40 55" src="https://user-images.githubusercontent.com/34348034/93457590-dac99800-f8e7-11ea-889f-657bad25bf0a.png" style="max-width:100%;">
-    
+Item template - How the data on the record is displayed in the list      
     
 ## 2. Add Advanced list widget to Service Portal page
 
