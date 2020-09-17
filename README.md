@@ -1,4 +1,4 @@
-# Advanced list application for ServiceNow portals
+# Advanced list application for Service Portal
 Custom ServiceNow application for generating list of records from multiple different data sources and displaying that in Service Portal. Display content of each record type can be customized along with linking behaviour and link parameters. The application consists of a Service Portal widget that does most of the heavy lifting and a custom table where data sources are defined.  
 
 You can find widget source code here: https://github.com/eemelikoli/sp-adv-list-source-code
