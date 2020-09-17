@@ -1,6 +1,8 @@
 # sp-adv-list
-Custom ServiceNow application for generating list of records from multiple different data sources and displaying that in Service Portal.
-Display content of each record type can be customized along with linking behaviour and link parameters. 
+Custom ServiceNow application for generating list of records from multiple different data sources and displaying that in Service Portal.  
+Display content of each record type can be customized along with linking behaviour and link parameters.  
+Application consists of a Service Portal widget that does most of the heavy lifting and a custom table where data sources are defined.  
+You can find widget source code here:
 
 # Installation
 To be added
@@ -39,10 +41,10 @@ Item template - How the data on the record is displayed in the list
 
 Include the SP Avanced List widget to a Service Portal page  
 
-## 3. In the widget instance options add the list sources you want to use in your list.
+## 3. In the widget instance options add the list sources you want to use in your list.  
+![image](https://user-images.githubusercontent.com/34348034/93463277-3566f200-f8f0-11ea-8b19-e829788b2cbc.png)
 
-
-
+Add the list sources you want to display in the widget instance options.
 
 # Upcoming features
 See list of issues in this repository
