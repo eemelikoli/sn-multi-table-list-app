@@ -46,4 +46,4 @@ Include the SP Avanced List widget to a Service Portal page
 Add the list sources you want to display in the widget instance options.
 
 # Upcoming features
-See list of issues in this repository
+Upcoming features will be tracked in issues linked to this repository.
