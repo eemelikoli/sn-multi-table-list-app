@@ -54,10 +54,10 @@
         <sys_created_by/>
         <sys_created_on>2020-06-29 20:25:53</sys_created_on>
         <sys_id>654579601b031010f480fc86cc4bcb38</sys_id>
-        <sys_mod_count/>
+        <sys_mod_count>0</sys_mod_count>
         <sys_recorded_at>17301c1ec680000000</sys_recorded_at>
-        <sys_updated_by/>
-        <sys_updated_on/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-17 11:21:20</sys_updated_on>
         <type>Table</type>
         <update_guid>254579606a031010b0dbf36dca4cfc38</update_guid>
         <update_guid_history>254579606a031010b0dbf36dca4cfc38:760659215</update_guid_history>

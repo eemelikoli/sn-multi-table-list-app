@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="List Sources" max_length="40" name="x_207729_adv_list_item_definition" sizeclass="5" type="collection">
+    <element label="List Sources" max_length="40" name="x_207729_adv_list_item_definition" type="collection">
         <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
         <element dependent="table" dependent_on_field="table" label="Filter" max_length="4000" name="filter" type="conditions" use_dependent_field="true"/>
         <element label="ID" mandatory="true" max_length="255" name="id" type="string" unique="true"/>
@@ -29,6 +29,9 @@
         </index>
         <index name="index3">
             <element name="table"/>
+        </index>
+        <index name="index4">
+            <element name="id"/>
         </index>
     </element>
 </database>
