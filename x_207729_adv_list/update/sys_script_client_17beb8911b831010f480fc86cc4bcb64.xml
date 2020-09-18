@@ -27,14 +27,14 @@
 	g_form.setValue('item_template', template);
 }
 
-var htmlTemplate = '<h3 class=\"item-title\">{{item.title}}<\/h3>\r\n<ul class=\"primary-content list-inline\">\r\n    <li ng-repeat=\"field in item.primary_fields\">\r\n        <small class=\"text-muted\">{{field.label}}<\/small>\r\n        <p>{{field.display_value}}<\/p>\r\n    <\/li>\r\n<\/ul>\r\n\r\n<ul class=\"secondary-content\" ng-if=\"item.secondary_fields.length > 0\">\r\n    <li ng-repeat=\"field in item.secondary_fields\">\r\n        <small class=\"text-muted\">{{field.label}}<\/small>\r\n        <p>{{field.display_value}}<\/p>\r\n    <\/li>\r\n<\/ul>']]></script>
+var htmlTemplate = '<h3 class=\"item-title\">{{item.title}}<\/h3>\r\n<ul class=\"primary-content list-inline\">\r\n    <li ng-repeat=\"field in item.primary_fields\">\r\n        <small class=\"text-muted\">{{field.label}}<\/small>\r\n        <p>{{field.display_value}}<\/p>\r\n    <\/li>\r\n<\/ul>\r\n\r\n<ul class=\"secondary-content\">\r\n    <li ng-repeat=\"field in item.secondary_fields\">\r\n        <small class=\"text-muted\">{{field.label}}<\/small>\r\n        <p>{{field.display_value}}<\/p>\r\n    <\/li>\r\n<\/ul>']]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-03 12:05:38</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>17beb8911b831010f480fc86cc4bcb64</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Sets default list item template</sys_name>
         <sys_overrides/>
         <sys_package display_value="SP Advanced List" source="x_207729_adv_list">09a2f2811b021010f480fc86cc4bcbf0</sys_package>
@@ -42,7 +42,7 @@ var htmlTemplate = '<h3 class=\"item-title\">{{item.title}}<\/h3>\r\n<ul class=\
         <sys_scope display_value="SP Advanced List">09a2f2811b021010f480fc86cc4bcbf0</sys_scope>
         <sys_update_name>sys_script_client_17beb8911b831010f480fc86cc4bcb64</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-04 13:20:23</sys_updated_on>
+        <sys_updated_on>2020-09-18 13:36:47</sys_updated_on>
         <table>x_207729_adv_list_item_definition</table>
         <type>onLoad</type>
         <ui_type>10</ui_type>

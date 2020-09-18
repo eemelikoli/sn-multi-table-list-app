@@ -97,7 +97,7 @@
 		c.server.get(i).then(function (response) {
 			var r = response.data;
 			// when we move to another page and we have cached items, push them to results array
-			if (c.cache.length > 0) {
+			if (c.cache && c.cache.length > 0) {
 				r.results.push(c.cache);
 				c.cache = [];
 			}
@@ -109,7 +109,7 @@
 
 
 	function formList(results, pageSize, addItems) {
-		if (results.length < pageSize) {
+		if (results.length <= pageSize) {
 			c.noMoreResults = true;
 		}
 		if (results.length > pageSize) {
@@ -203,6 +203,13 @@
 	}
 }
 
+#errors {
+	ul {
+		padding: 0;
+	}
+
+}
+
 
 #item-list,
 #errors,
@@ -211,7 +218,6 @@
 
 	ul {
 		list-style: none;
-		padding: 0;
 	}
 
 	#items {
@@ -252,7 +258,7 @@
 
 		.secondary-content {
 			flex: 1 0 20%;
-			padding-left: 1%;
+			padding-left: 5px;
 			border-left: 1px solid $primary;
 		}
 	}
@@ -396,7 +402,10 @@
 
 
   function load(opt) {
-    var sources = opt.initializedSources;
+    var sources = opt.initializedSources.filter(function(source){
+      return source !== null && source !== undefined;
+    });
+
     if (!sources) {
       errorMsgProvider("configuration");
       return;
@@ -414,19 +423,18 @@
       };
     });
 
-    data.souceQueries = sourceQueries;
-
-    // clean null queries and 0 result queries
+    // clean null and 0 result queries
     var validQueries = sourceQueries.filter(function (query) {
       return query.glideRecord !== null && query.noRecords > 0;
     });
 
-    //fetch available records from valid sources
+    //fetch available records from valid queries
     var results = validQueries.map(function (query) {
       return getRecords(query.glideRecord, query.source);
     });
 
     data.results = results;
+    data.souceQueries = sourceQueries;
     data.initializedSources = opt.initializedSources;
     data.searchTerm = opt.searchTerm;
     data.pageSize = pageSize;
@@ -517,9 +525,9 @@ function getRecords(query, source) {
     var record = {},
       title = {};
     $sp.getRecordDisplayValues(title, query, t.title_field);
-
     record = {
       sys_id: query.getValue("sys_id"), //get sys_id for every record
+      table: t.table, //add table for every record
       sys_created_on: query.getValue("sys_created_on"), // sorting
       sys_updated_on: query.getValue("sys_updated_on"), // sorting
       sys_class_name: query.getDisplayValue("sys_class_name"), // display below icon
@@ -629,14 +637,14 @@ function errorMsgProvider(errorType, arg1, arg2) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-15 09:23:49</sys_created_on>
         <sys_id>d27abec91b021010f480fc86cc4bcbb4</sys_id>
-        <sys_mod_count>894</sys_mod_count>
+        <sys_mod_count>906</sys_mod_count>
         <sys_name>SP Advanced List</sys_name>
         <sys_package display_value="SP Advanced List" source="x_207729_adv_list">09a2f2811b021010f480fc86cc4bcbf0</sys_package>
         <sys_policy/>
         <sys_scope display_value="SP Advanced List">09a2f2811b021010f480fc86cc4bcbf0</sys_scope>
         <sys_update_name>sp_widget_d27abec91b021010f480fc86cc4bcbb4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-18 08:35:33</sys_updated_on>
+        <sys_updated_on>2020-09-18 12:26:30</sys_updated_on>
         <template><![CDATA[<div id="title" class="col-xs-12" role="" ng-if="::options.hide_title === 'false'">
     <h1>{{::options.title || "Hello there!"}}</h1>
 </div>
