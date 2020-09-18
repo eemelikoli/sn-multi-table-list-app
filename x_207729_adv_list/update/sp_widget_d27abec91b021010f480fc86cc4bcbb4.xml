@@ -203,9 +203,6 @@
 	}
 }
 
-#items {
-	display: block;
-}
 
 #item-list,
 #errors,
@@ -214,9 +211,11 @@
 
 	ul {
 		list-style: none;
+		padding: 0;
 	}
 
 	#items {
+		display: block;
 		padding: 0;
 	}
 }
@@ -239,6 +238,7 @@
 	.item-content {
 		flex: 2 0 92%;
 		flex-wrap: wrap;
+		padding-left: 10px;
 
 		.item-title {
 			flex: 1 0 100%;
@@ -271,6 +271,7 @@
 
 	.item-body .item-content {
 		text-align: center;
+		padding: 0;
 
 		.item-title,
 		.primary-content,
@@ -354,7 +355,7 @@
 
   var initializedSources = [],
     pageSize = 10; // TODO: allow page size to be set in instanse options
-    data.sortOptions = SORT_OPTIONS;
+  data.sortOptions = SORT_OPTIONS;
 
   // in order to keep the options beyond initial load we need to pass them to data object
   if (options) {
@@ -391,6 +392,9 @@
     load(grOptions);
   }
 
+
+
+
   function load(opt) {
     var sources = opt.initializedSources;
     if (!sources) {
@@ -410,6 +414,8 @@
       };
     });
 
+    data.souceQueries = sourceQueries;
+
     // clean null queries and 0 result queries
     var validQueries = sourceQueries.filter(function (query) {
       return query.glideRecord !== null && query.noRecords > 0;
@@ -426,6 +432,8 @@
     data.pageSize = pageSize;
   }
 })();
+
+
 
 function initializeListSources(
   listSources,
@@ -452,6 +460,13 @@ function initializeListSources(
     data.listTemplates["sp-template-" + t.id + ".html"] = $sp.translateTemplate(
       t.item_template
     ); //using undocumented ServiceNow function to generate the list templates from record data
+
+    if (t.type === 'page') {
+      var pageGr = new GlideRecord("sp_page");
+      pageGr.get(t.page);
+      t.pageID = pageGr.getValue("id");
+    }
+
     return t;
   });
   return sourceConfigs;
@@ -490,6 +505,7 @@ function generateGliderecord(table, filter, o) {
 }
 
 
+
 function getRecords(query, source) {
   var records = [],
     t = source;
@@ -524,6 +540,7 @@ function getRecords(query, source) {
     record.url = generateURL(record, {
       type: t.type,
       page: t.page,
+      pageID: t.pageID,
       base_url: t.link_url,
       parms: t.link_parameters,
     });
@@ -531,6 +548,8 @@ function getRecords(query, source) {
   }
   return records;
 }
+
+
 
 function generateURL(record, urlObj) {
   var parms = JSON.parse(urlObj.parms);
@@ -542,22 +561,20 @@ function generateURL(record, urlObj) {
 
   // TODO: Move the page query to be done when list sources are initialized to reduce the number of queries
   if (urlObj.type === "page") {
-    var pageGr = new GlideRecord("sp_page");
-    pageGr.get(urlObj.page);
-    url.parms.id = pageGr.getValue("id");
+    url.parms.id = urlObj.pageID;
   }
 
   for (var key in parms) {
     if (parms.hasOwnProperty(key)) {
       var parm = parms[key],
-          type = parm.split('.')[0],
-          field = parm.split('.')[1],
-          value = "";
+        type = parm.split('.')[0],
+        field = parm.split('.')[1],
+        value = "";
 
-      if(type === 'record'){
+      if (type === 'record') {
         value = record[field];
       }
-      if(type === 'field'){
+      if (type === 'field') {
         value = record.link_fields[field];
       }
       if (value === "") {
@@ -612,14 +629,14 @@ function errorMsgProvider(errorType, arg1, arg2) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-15 09:23:49</sys_created_on>
         <sys_id>d27abec91b021010f480fc86cc4bcbb4</sys_id>
-        <sys_mod_count>883</sys_mod_count>
+        <sys_mod_count>894</sys_mod_count>
         <sys_name>SP Advanced List</sys_name>
         <sys_package display_value="SP Advanced List" source="x_207729_adv_list">09a2f2811b021010f480fc86cc4bcbf0</sys_package>
         <sys_policy/>
         <sys_scope display_value="SP Advanced List">09a2f2811b021010f480fc86cc4bcbf0</sys_scope>
         <sys_update_name>sp_widget_d27abec91b021010f480fc86cc4bcbb4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-17 09:17:35</sys_updated_on>
+        <sys_updated_on>2020-09-18 08:35:33</sys_updated_on>
         <template><![CDATA[<div id="title" class="col-xs-12" role="" ng-if="::options.hide_title === 'false'">
     <h1>{{::options.title || "Hello there!"}}</h1>
 </div>
@@ -632,7 +649,7 @@ function errorMsgProvider(errorType, arg1, arg2) {
     </ul>
 </section>
 
-<section id="controls" class="col-xs-12 form-inline" ng-if="c.displayControls">
+<section id="controls" class="col-xs-12 form-inline" ng-if="c.displayControls && !c.noResults">
 
     <div class="form-group search">
         <div class="input-group">
@@ -664,7 +681,7 @@ function errorMsgProvider(errorType, arg1, arg2) {
                 <!-- if icon is available we'll show that and the class name of item -->
                 <div ng-if="item.icon !== null && item.icon !== undefined" class="item-type">
                     <div class="fa fa-2x" ng-class="'fa-' + item.icon"></div>
-                    <small class="text-muted">{{item.sys_class_name}}</small>
+                    <small class="text-muted text-center">{{item.sys_class_name}}</small>
                 </div>
 
                 <!-- template provided in list source definition -->
@@ -686,7 +703,7 @@ function errorMsgProvider(errorType, arg1, arg2) {
 
 </section>
 
-<section ng-if="c.displayControls">
+<section ng-if="c.displayControls && !c.noResults">
     <div ng-if="!c.noMoreResults" class="col-xs-12">
         <button type="button" class="btn btn-default center-block" ng-disabled="c.loading" aria-label="${loadMoreItems}"
             ng-click="c.loadMore()">${loadMoreItems}</button>

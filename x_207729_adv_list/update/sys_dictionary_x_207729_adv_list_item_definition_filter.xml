@@ -3,7 +3,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes/>
+        <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -53,7 +53,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-31 09:10:16</sys_created_on>
-        <sys_id>f51bbc351bdf1010f480fc86cc4bcb77</sys_id>
+        <sys_id>0302e1861b531010f480fc86cc4bcb8e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Filter</sys_name>
         <sys_package display_value="SP Advanced List" source="x_207729_adv_list">09a2f2811b021010f480fc86cc4bcbf0</sys_package>
@@ -61,7 +61,7 @@
         <sys_scope display_value="SP Advanced List">09a2f2811b021010f480fc86cc4bcbf0</sys_scope>
         <sys_update_name>sys_dictionary_x_207729_adv_list_item_definition_filter</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-17 11:21:14</sys_updated_on>
+        <sys_updated_on>2020-09-18 08:50:14</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
