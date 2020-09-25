@@ -223,6 +223,10 @@
 	#items {
 		display: block;
 		padding: 0;
+
+		.list-item:hover {
+			background-color: $gray-lighter;
+		}
 	}
 }
 
@@ -312,22 +316,7 @@
         <script><![CDATA[(function () {
   // CONSTANTS
   var LIST_SOURCE_TABLE = "x_207729_adv_list_item_definition",
-    CONFIG_FIELDS = [
-      "active",
-      "table",
-      "id",
-      "title_field",
-      "primary_fields",
-      "secondary_fields",
-      "link_fields",
-      "filter",
-      "item_icon",
-      "item_template",
-      "type",
-      "link_url",
-      "link_parameters",
-      "page"
-    ],
+    CONFIG_FIELDS = $sp.getListColumns(LIST_SOURCE_TABLE,'widgetconfig').split(','),
     // TODO?: Move search and sorting logic to it's own widget
     SORT_OPTIONS = [{
         id: 1,
@@ -358,6 +347,7 @@
         type: "date"
       }
     ];
+
 
   var initializedSources = [],
     pageSize = 10; // TODO: allow page size to be set in instanse options
@@ -637,31 +627,31 @@ function errorMsgProvider(errorType, arg1, arg2) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-15 09:23:49</sys_created_on>
         <sys_id>d27abec91b021010f480fc86cc4bcbb4</sys_id>
-        <sys_mod_count>906</sys_mod_count>
+        <sys_mod_count>919</sys_mod_count>
         <sys_name>SP Advanced List</sys_name>
         <sys_package display_value="SP Advanced List" source="x_207729_adv_list">09a2f2811b021010f480fc86cc4bcbf0</sys_package>
         <sys_policy/>
         <sys_scope display_value="SP Advanced List">09a2f2811b021010f480fc86cc4bcbf0</sys_scope>
         <sys_update_name>sp_widget_d27abec91b021010f480fc86cc4bcbb4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-18 12:26:30</sys_updated_on>
-        <template><![CDATA[<div id="title" class="col-xs-12" role="" ng-if="::options.hide_title === 'false'">
+        <sys_updated_on>2020-09-21 13:50:58</sys_updated_on>
+        <template><![CDATA[<div id="title" class="col-xs-12" ng-if="::options.hide_title === 'false'">
     <h1>{{::options.title || "Hello there!"}}</h1>
 </div>
 
-<section id="errors" ng-if="data.error" class="col-xs-12">
+<section id="errors" aria-label="Error messages" ng-if="data.error" class="col-xs-12">
     <ul>
-        <li ng-repeat="error in data.errorMessages" class="alert alert-warning">
+        <li ng-repeat="error in data.errorMessages" class="alert alert-warning" role="alert">
             {{error}}
         </li>
     </ul>
 </section>
 
-<section id="controls" class="col-xs-12 form-inline" ng-if="c.displayControls && !c.noResults">
+<section id="controls" aria-label="List search and sort controls" class="col-xs-12 form-inline" ng-if="c.displayControls">
 
-    <div class="form-group search">
+    <div class="form-group search" role="search">
         <div class="input-group">
-            <input type="text" class="form-control" placeholder="Search for..." ng-model="c.searchInput"
+            <input type="search" aria-label="Search text" class="form-control" placeholder="Search for..." ng-model="c.searchInput"
                 ng-disabled="c.loading">
             <div class="input-group-btn">
                 <button class="btn btn-default" type="button" ng-click="c.search()"
@@ -681,9 +671,9 @@ function errorMsgProvider(errorType, arg1, arg2) {
     </div>
 </section>
 
-<section id="item-list" class="col-xs-12">
+<section id="item-list" aria-label="Item list" class="col-xs-12">
     <ul id=items ng-if="!c.noResults">
-        <li class="panel panel-default" ng-repeat="item in c.items">
+        <li class="panel panel-default list-item" ng-repeat="item in c.items">
             <a class="panel-body item-body" ng-href="{{c.generateLink(item.url)}}">
 
                 <!-- if icon is available we'll show that and the class name of item -->
@@ -705,17 +695,15 @@ function errorMsgProvider(errorType, arg1, arg2) {
         </li>
     </ul>
 
-    <div ng-if="c.noResults" class="text-center">
+    <div ng-if="c.noResults" class="text-center" aria-label="">
         <h3>${noResultsText}</h3>
     </div>
 
 </section>
 
-<section ng-if="c.displayControls && !c.noResults">
-    <div ng-if="!c.noMoreResults" class="col-xs-12">
-        <button type="button" class="btn btn-default center-block" ng-disabled="c.loading" aria-label="${loadMoreItems}"
+<section ng-if="c.displayControls && !c.noResults" aria-label="Load more list items" class="col-xs-12">
+        <button type="button" ng-if="!c.noMoreResults" class="btn btn-default center-block" ng-disabled="c.loading" aria-label="${loadMoreItems}"
             ng-click="c.loadMore()">${loadMoreItems}</button>
-    </div>
 </section>]]></template>
     </sp_widget>
 </record_update>
