@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column">
+    <sp_column action="DELETE">
+        <class_name/>
+        <order>1</order>
+        <size>12</size>
+        <size_lg/>
+        <size_sm/>
+        <size_xs/>
+        <sp_row display_value="1">51f778b11bdf1010f480fc86cc4bcb14</sp_row>
+        <sys_class_name>sp_column</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-17 11:07:31</sys_created_on>
+        <sys_id>d1f7b8b11bdf1010f480fc86cc4bcb97</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="SP Advanced List" source="x_207729_adv_list">09a2f2811b021010f480fc86cc4bcbf0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SP Advanced List">09a2f2811b021010f480fc86cc4bcbf0</sys_scope>
+        <sys_update_name>sp_column_d1f7b8b11bdf1010f480fc86cc4bcb97</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-17 11:07:31</sys_updated_on>
+    </sp_column>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Multi-table list for Service Portal">09a2f2811b021010f480fc86cc4bcbf0</application>
+        <file_path/>
+        <instance_id>2644c26bdb6dd780ff27d5b0cf961986</instance_id>
+        <instance_name>dev57125</instance_name>
+        <name>sp_column_d1f7b8b11bdf1010f480fc86cc4bcb97</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><class_name/><order>1</order><size>12</size><size_lg/><size_sm/><size_xs/><sp_row display_value="1">51f778b11bdf1010f480fc86cc4bcb14</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-17 11:07:31</sys_created_on><sys_id>d1f7b8b11bdf1010f480fc86cc4bcb97</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="SP Advanced List" source="x_207729_adv_list">09a2f2811b021010f480fc86cc4bcbf0</sys_package><sys_policy/><sys_scope display_value="SP Advanced List">09a2f2811b021010f480fc86cc4bcbf0</sys_scope><sys_update_name>sp_column_d1f7b8b11bdf1010f480fc86cc4bcb97</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-17 11:07:31</sys_updated_on></sp_column></record_update>]]></payload>
+        <payload_hash>-426780981</payload_hash>
+        <record_name>1</record_name>
+        <reverted_from/>
+        <source>842269861b531010f480fc86cc4bcb4a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-18 08:50:16</sys_created_on>
+        <sys_id>6c2269861b531010f480fc86cc4bcbc0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174a0682e650000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-18 08:50:16</sys_updated_on>
+        <type>Column</type>
+        <update_guid>9df7b8b1d2df1010c52e2b0b1f1e5f97</update_guid>
+        <update_guid_history>9df7b8b1d2df1010c52e2b0b1f1e5f97:-426780981,45026186a85310104bcd6018a5cb90b0:2001523558,9df7b8b1d2df1010c52e2b0b1f1e5f97:-426780981,fb0b3c3503df101050e10f3b2bda4cae:2001523558,9df7b8b1d2df1010c52e2b0b1f1e5f97:-426780981</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="1">fe5f01d62f2220106ac670682799b6e5</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-27 15:30:46</sys_created_on>
+        <sys_db_object display_value="" name="sp_column">sp_column</sys_db_object>
+        <sys_id>31732aaf70424a1e90ce85b9595e0139</sys_id>
+        <sys_metadata>d1f7b8b11bdf1010f480fc86cc4bcb97</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="Multi-table list for Service Portal" source="x_207729_adv_list">09a2f2811b021010f480fc86cc4bcbf0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Multi-table list for Service Portal">09a2f2811b021010f480fc86cc4bcbf0</sys_scope>
+        <sys_scope_delete display_value="">1240737bed564758b22d7ec231602f84</sys_scope_delete>
+        <sys_update_name>sp_column_d1f7b8b11bdf1010f480fc86cc4bcb97</sys_update_name>
+        <sys_update_version display_value="sp_column_d1f7b8b11bdf1010f480fc86cc4bcb97">6c2269861b531010f480fc86cc4bcbc0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-27 15:30:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

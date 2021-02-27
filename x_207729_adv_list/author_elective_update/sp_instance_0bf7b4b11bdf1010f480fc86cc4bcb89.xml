@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">d1f7b8b11bdf1010f480fc86cc4bcb97</sp_column>
+        <sp_widget display_value="SP Advanced List">d27abec91b021010f480fc86cc4bcbb4</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-17 11:07:38</sys_created_on>
+        <sys_id>0bf7b4b11bdf1010f480fc86cc4bcb89</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="SP Advanced List" source="x_207729_adv_list">09a2f2811b021010f480fc86cc4bcbf0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SP Advanced List">09a2f2811b021010f480fc86cc4bcbf0</sys_scope>
+        <sys_update_name>sp_instance_0bf7b4b11bdf1010f480fc86cc4bcb89</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-17 11:07:38</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=0bf7b4b11bdf1010f480fc86cc4bcb89"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Multi-table list for Service Portal">09a2f2811b021010f480fc86cc4bcbf0</application>
+        <file_path/>
+        <instance_id>2644c26bdb6dd780ff27d5b0cf961986</instance_id>
+        <instance_name>dev57125</instance_name>
+        <name>sp_instance_0bf7b4b11bdf1010f480fc86cc4bcb89</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">d1f7b8b11bdf1010f480fc86cc4bcb97</sp_column><sp_widget display_value="SP Advanced List">d27abec91b021010f480fc86cc4bcbb4</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-17 11:07:38</sys_created_on><sys_id>0bf7b4b11bdf1010f480fc86cc4bcb89</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="SP Advanced List" source="x_207729_adv_list">09a2f2811b021010f480fc86cc4bcbf0</sys_package><sys_policy/><sys_scope display_value="SP Advanced List">09a2f2811b021010f480fc86cc4bcbf0</sys_scope><sys_update_name>sp_instance_0bf7b4b11bdf1010f480fc86cc4bcb89</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-17 11:07:38</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=0bf7b4b11bdf1010f480fc86cc4bcb89"/></record_update>]]></payload>
+        <payload_hash>-1457958053</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>842269861b531010f480fc86cc4bcb4a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-18 08:50:16</sys_created_on>
+        <sys_id>282269861b531010f480fc86cc4bcbc6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174a0682eb70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-18 08:50:16</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>cbf7b4b15edf10106dcc24f7a27fed8a</update_guid>
+        <update_guid_history>cbf7b4b15edf10106dcc24f7a27fed8a:-1457958053,78026186d9531010c181df3e18bc7d65:-972366001,cbf7b4b15edf10106dcc24f7a27fed8a:-1457958053,af0b3c35e8df10101831868a743cb43f:-972366001,cbf7b4b15edf10106dcc24f7a27fed8a:-1457958053</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">225f01d62f2220106ac670682799b6e1</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-27 15:30:46</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>16bd1ad791e545df897125b2a493acc9</sys_id>
+        <sys_metadata>0bf7b4b11bdf1010f480fc86cc4bcb89</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Multi-table list for Service Portal" source="x_207729_adv_list">09a2f2811b021010f480fc86cc4bcbf0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Multi-table list for Service Portal">09a2f2811b021010f480fc86cc4bcbf0</sys_scope>
+        <sys_scope_delete display_value="">1240737bed564758b22d7ec231602f84</sys_scope_delete>
+        <sys_update_name>sp_instance_0bf7b4b11bdf1010f480fc86cc4bcb89</sys_update_name>
+        <sys_update_version display_value="sp_instance_0bf7b4b11bdf1010f480fc86cc4bcb89">282269861b531010f480fc86cc4bcbc6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-27 15:30:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

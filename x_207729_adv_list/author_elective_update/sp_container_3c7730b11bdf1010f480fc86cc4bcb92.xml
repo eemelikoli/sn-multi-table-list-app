@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>Test Page - Container 1</name>
+        <order>1</order>
+        <sp_page display_value="test_page">f07730b11bdf1010f480fc86cc4bcb8f</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-17 11:05:19</sys_created_on>
+        <sys_id>3c7730b11bdf1010f480fc86cc4bcb92</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test Page - Container 1</sys_name>
+        <sys_package display_value="SP Advanced List" source="x_207729_adv_list">09a2f2811b021010f480fc86cc4bcbf0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SP Advanced List">09a2f2811b021010f480fc86cc4bcbf0</sys_scope>
+        <sys_update_name>sp_container_3c7730b11bdf1010f480fc86cc4bcb92</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-17 11:05:19</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Multi-table list for Service Portal">09a2f2811b021010f480fc86cc4bcbf0</application>
+        <file_path/>
+        <instance_id>2644c26bdb6dd780ff27d5b0cf961986</instance_id>
+        <instance_name>dev57125</instance_name>
+        <name>sp_container_3c7730b11bdf1010f480fc86cc4bcb92</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>Test Page - Container 1</name><order>1</order><sp_page display_value="test_page">f07730b11bdf1010f480fc86cc4bcb8f</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-17 11:05:19</sys_created_on><sys_id>3c7730b11bdf1010f480fc86cc4bcb92</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Test Page - Container 1</sys_name><sys_package display_value="SP Advanced List" source="x_207729_adv_list">09a2f2811b021010f480fc86cc4bcbf0</sys_package><sys_policy/><sys_scope display_value="SP Advanced List">09a2f2811b021010f480fc86cc4bcbf0</sys_scope><sys_update_name>sp_container_3c7730b11bdf1010f480fc86cc4bcb92</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-17 11:05:19</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>205633069</payload_hash>
+        <record_name>Test Page - Container 1</record_name>
+        <reverted_from/>
+        <source>842269861b531010f480fc86cc4bcb4a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-18 08:50:16</sys_created_on>
+        <sys_id>642269861b531010f480fc86cc4bcbc3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174a0682e860000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-18 08:50:16</sys_updated_on>
+        <type>Container</type>
+        <update_guid>857730b1aedf10108e353d546d034b94</update_guid>
+        <update_guid_history>857730b1aedf10108e353d546d034b94:205633069,0d026186285310107b096ded22dac9b4:909683257,857730b1aedf10108e353d546d034b94:205633069,3f0b3c3539df1010fce7d85a871bb7b2:909683257,857730b1aedf10108e353d546d034b94:205633069</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Test Page - Container 1">be5f01d62f2220106ac670682799b6f9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-27 15:30:46</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>38ccb20128ae45b6b42e86cf01a35ca4</sys_id>
+        <sys_metadata>3c7730b11bdf1010f480fc86cc4bcb92</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test Page - Container 1</sys_name>
+        <sys_package display_value="Multi-table list for Service Portal" source="x_207729_adv_list">09a2f2811b021010f480fc86cc4bcbf0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Multi-table list for Service Portal">09a2f2811b021010f480fc86cc4bcbf0</sys_scope>
+        <sys_scope_delete display_value="">1240737bed564758b22d7ec231602f84</sys_scope_delete>
+        <sys_update_name>sp_container_3c7730b11bdf1010f480fc86cc4bcb92</sys_update_name>
+        <sys_update_version display_value="sp_container_3c7730b11bdf1010f480fc86cc4bcb92">642269861b531010f480fc86cc4bcbc3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-02-27 15:30:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
