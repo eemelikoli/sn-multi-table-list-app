@@ -24,7 +24,7 @@
     </sys_security_acl>
     <sys_update_version action="INSERT_OR_UPDATE">
         <action>DELETE</action>
-        <application display_value="SP Advanced List">09a2f2811b021010f480fc86cc4bcbf0</application>
+        <application display_value="Multi-table list for Service Portal">09a2f2811b021010f480fc86cc4bcbf0</application>
         <file_path/>
         <instance_id>2644c26bdb6dd780ff27d5b0cf961986</instance_id>
         <instance_name>dev57125</instance_name>
@@ -57,10 +57,10 @@
         <sys_metadata>c3495a031b461010f480fc86cc4bcb1a</sys_metadata>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_207729_adv_list_instance</sys_name>
-        <sys_package display_value="SP Advanced List" source="x_207729_adv_list">09a2f2811b021010f480fc86cc4bcbf0</sys_package>
+        <sys_package display_value="Multi-table list for Service Portal" source="x_207729_adv_list">09a2f2811b021010f480fc86cc4bcbf0</sys_package>
         <sys_parent display_value="">4b495a031b461010f480fc86cc4bcb25</sys_parent>
         <sys_policy/>
-        <sys_scope display_value="SP Advanced List">09a2f2811b021010f480fc86cc4bcbf0</sys_scope>
+        <sys_scope display_value="Multi-table list for Service Portal">09a2f2811b021010f480fc86cc4bcbf0</sys_scope>
         <sys_scope_delete display_value="">1240737bed564758b22d7ec231602f84</sys_scope_delete>
         <sys_update_name>sys_security_acl_c3495a031b461010f480fc86cc4bcb1a</sys_update_name>
         <sys_update_version display_value="sys_security_acl_c3495a031b461010f480fc86cc4bcb1a">8b495a031b461010f480fc86cc4bcb1c</sys_update_version>

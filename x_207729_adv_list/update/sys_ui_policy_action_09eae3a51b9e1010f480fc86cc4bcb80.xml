@@ -10,9 +10,9 @@
         <sys_id>09eae3a51b9e1010f480fc86cc4bcb80</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_name>page</sys_name>
-        <sys_package display_value="SP Advanced List" source="x_207729_adv_list">09a2f2811b021010f480fc86cc4bcbf0</sys_package>
+        <sys_package display_value="Multi-table list for Service Portal" source="x_207729_adv_list">09a2f2811b021010f480fc86cc4bcbf0</sys_package>
         <sys_policy/>
-        <sys_scope display_value="SP Advanced List">09a2f2811b021010f480fc86cc4bcbf0</sys_scope>
+        <sys_scope display_value="Multi-table list for Service Portal">09a2f2811b021010f480fc86cc4bcbf0</sys_scope>
         <sys_update_name>sys_ui_policy_action_09eae3a51b9e1010f480fc86cc4bcb80</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-09-01 12:49:51</sys_updated_on>

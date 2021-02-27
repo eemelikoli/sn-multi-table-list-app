@@ -7,23 +7,23 @@
         <hint>Generate list to Service Portal for displaying records from multiple data tables in ServiceNow</hint>
         <name/>
         <order/>
-        <roles>admin,sp_admin</roles>
+        <roles>admin,sp_admin,x_207729_adv_list.list_admin</roles>
         <sys_class_name>sys_app_application</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-15 08:57:29</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ec7436811b021010f480fc86cc4bcb7a</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Service Portal Advanced List</sys_name>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Multi-table list for Service Portal</sys_name>
         <sys_overrides/>
-        <sys_package display_value="SP Advanced List" source="x_207729_adv_list">09a2f2811b021010f480fc86cc4bcbf0</sys_package>
+        <sys_package display_value="Multi-table list for Service Portal" source="x_207729_adv_list">09a2f2811b021010f480fc86cc4bcbf0</sys_package>
         <sys_policy/>
-        <sys_scope display_value="SP Advanced List">09a2f2811b021010f480fc86cc4bcbf0</sys_scope>
+        <sys_scope display_value="Multi-table list for Service Portal">09a2f2811b021010f480fc86cc4bcbf0</sys_scope>
         <sys_update_name>sys_app_application_ec7436811b021010f480fc86cc4bcb7a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-04 13:24:58</sys_updated_on>
-        <title>Service Portal Advanced List</title>
+        <sys_updated_on>2021-02-27 15:22:43</sys_updated_on>
+        <title>Multi-table list for Service Portal</title>
         <view_name/>
     </sys_app_application>
 </record_update>

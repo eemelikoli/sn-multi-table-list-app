@@ -6,9 +6,9 @@
         <sys_id>20347a091b021010f480fc86cc4bcb8e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>x_207729_adv_list_item_definition.admin</sys_name>
-        <sys_package display_value="SP Advanced List" source="x_207729_adv_list">09a2f2811b021010f480fc86cc4bcbf0</sys_package>
+        <sys_package display_value="Multi-table list for Service Portal" source="x_207729_adv_list">09a2f2811b021010f480fc86cc4bcbf0</sys_package>
         <sys_policy/>
-        <sys_scope display_value="SP Advanced List">09a2f2811b021010f480fc86cc4bcbf0</sys_scope>
+        <sys_scope display_value="Multi-table list for Service Portal">09a2f2811b021010f480fc86cc4bcbf0</sys_scope>
         <sys_security_acl display_value="x_207729_adv_list_item_definition">e4347a091b021010f480fc86cc4bcb8b</sys_security_acl>
         <sys_update_name>sys_security_acl_role_20347a091b021010f480fc86cc4bcb8e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>

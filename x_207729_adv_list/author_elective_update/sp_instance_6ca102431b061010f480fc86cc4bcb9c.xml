@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">bd918a431b061010f480fc86cc4bcbfc</sp_column>
+        <sp_widget display_value="SP Advanced List">d27abec91b021010f480fc86cc4bcbb4</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-21 10:23:20</sys_created_on>
+        <sys_id>6ca102431b061010f480fc86cc4bcb9c</sys_id>
+        <sys_mod_count>27</sys_mod_count>
+        <sys_name>This is a test title</sys_name>
+        <sys_package display_value="SP Advanced List" source="x_207729_adv_list">09a2f2811b021010f480fc86cc4bcbf0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SP Advanced List">09a2f2811b021010f480fc86cc4bcbf0</sys_scope>
+        <sys_update_name>sp_instance_6ca102431b061010f480fc86cc4bcb9c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-18 08:45:29</sys_updated_on>
+        <title>This is a test title</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"list_sources": {
+		"value": "57ac45c61b131010f480fc86cc4bcb4a,ca4115ca1b131010f480fc86cc4bcb3f,256029061b531010f480fc86cc4bcb62",
+		"displayValue": "Incidents by current user, Requested Items by current user, Public widgets"
+	},
+	"title": {
+		"value": "This is a test title",
+		"displayValue": "This is a test title"
+	},
+	"hide_title": {
+		"value": "false",
+		"displayValue": "false"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=6ca102431b061010f480fc86cc4bcb9c"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Multi-table list for Service Portal">09a2f2811b021010f480fc86cc4bcbf0</application>
+        <file_path/>
+        <instance_id>2644c26bdb6dd780ff27d5b0cf961986</instance_id>
+        <instance_name>dev57125</instance_name>
+        <name>sp_instance_6ca102431b061010f480fc86cc4bcb9c</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;bd918a431b061010f480fc86cc4bcbfc&lt;/sp_column&gt;&lt;sp_widget display_value="SP Advanced List"&gt;d27abec91b021010f480fc86cc4bcbb4&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-07-21 10:23:20&lt;/sys_created_on&gt;&lt;sys_id&gt;6ca102431b061010f480fc86cc4bcb9c&lt;/sys_id&gt;&lt;sys_mod_count&gt;27&lt;/sys_mod_count&gt;&lt;sys_name&gt;This is a test title&lt;/sys_name&gt;&lt;sys_package display_value="SP Advanced List" source="x_207729_adv_list"&gt;09a2f2811b021010f480fc86cc4bcbf0&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="SP Advanced List"&gt;09a2f2811b021010f480fc86cc4bcbf0&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_6ca102431b061010f480fc86cc4bcb9c&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-09-18 08:45:29&lt;/sys_updated_on&gt;&lt;title&gt;This is a test title&lt;/title&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"list_sources": {
+		"value": "57ac45c61b131010f480fc86cc4bcb4a,ca4115ca1b131010f480fc86cc4bcb3f,256029061b531010f480fc86cc4bcb62",
+		"displayValue": "Incidents by current user, Requested Items by current user, Public widgets"
+	},
+	"title": {
+		"value": "This is a test title",
+		"displayValue": "This is a test title"
+	},
+	"hide_title": {
+		"value": "false",
+		"displayValue": "false"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=6ca102431b061010f480fc86cc4bcb9c"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-14575738</payload_hash>
+        <record_name>This is a test title</record_name>
+        <reverted_from/>
+        <source>842269861b531010f480fc86cc4bcb4a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-18 08:50:16</sys_created_on>
+        <sys_id>ac2269861b531010f480fc86cc4bcbcc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174a0682f4b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-18 08:50:16</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>ee01a50603531010477d1ac63b4da623</update_guid>
+        <update_guid_history>ee01a50603531010477d1ac63b4da623:-14575738,441225862153101048f0c03cc6d10ebf:0,c10261866853101027fbd3e1e62a5195:-2110116525,ee01a50603531010477d1ac63b4da623:-14575738,9493d90e2d13101057796f9dc1880fec:-1160244981,803d4dc6ac1310108c72c46d2197cd5e:-689820771,87da8d462e1310100d7eaaa2a4b88bad:-264414805,84dacd464d1310100973b071ad0cb800:570460255,70ca0d46571310104a82c5b685d43ad0:-1439281128,b21bfc3505df101085a5d16d8d0e27aa:0,af0b3c359ddf10108b31489bd4efd092:-2127655216,21000465b5d31010ccdb3e8ef34d7c00:-2108128387,b15c7b5544d31010b41c823cfd4e80f2:-1963360117,e2cb3f159bd31010bfa0e6854b06daf7:1256951026,90cbfb15d3d310103acbae1d4e487e2a:-2108128387,261b7f155bd31010ed4670005fc83952:-1963360117,001b3f1585d310108b04064946db53c9:-2108128387,f00b7b15b2d310101b41ea301786ed1d:1648786714,accaf715fad31010e83fadc685cdee3a:-1637663384,21b8166121cf10101ae809dddcac64c6:1858458223,b9ee82e06f4310105ea7c49c5bc5fd82:1058088496,19994eace6031010a131dbb68ea03cb5:-698240981,aafcb9d84a031010637748461bc6814e:-901410883,bcecf9d8c4031010444750e7a09b9362:-495903875,bb4c39983403101060c0d0bfd5c1c03c:-1424186816,4f66fd940603101021f57db7d0e5c5bc:0,48663d947903101016fde49217b243a6:-587277058,5ac8de560ed21010f4c1ee7ecf8a5e6f:-2002110223,fee2d99a191210100e6d47a3cda9b0e3:-1228941030,abf49c0e97121010905132271c29dabf:256330343,d811d08a8c12101063866887605f2d4f:-1550082075,1cbe400a0812101029964ede274aa9b2:1785803777,1bca04861c121010abe3ed482c564d63:-823713223,87f93ac7fd8610108d0339aad9c3ecc4:-1620416200,20a1ca4339061010709b9f598c83d2d8:-495903875</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="This is a test title">6ab6f5821b931010f480fc86cc4bcb2d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-18 10:20:14</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>089ca6e21e4e46509358a8a4bcd00901</sys_id>
+        <sys_metadata>6ca102431b061010f480fc86cc4bcb9c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>This is a test title</sys_name>
+        <sys_package display_value="Multi-table list for Service Portal" source="x_207729_adv_list">09a2f2811b021010f480fc86cc4bcbf0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Multi-table list for Service Portal">09a2f2811b021010f480fc86cc4bcbf0</sys_scope>
+        <sys_scope_delete display_value="">1240737bed564758b22d7ec231602f84</sys_scope_delete>
+        <sys_update_name>sp_instance_6ca102431b061010f480fc86cc4bcb9c</sys_update_name>
+        <sys_update_version display_value="sp_instance_6ca102431b061010f480fc86cc4bcb9c">ac2269861b531010f480fc86cc4bcbcc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-18 10:20:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
