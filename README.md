@@ -1,4 +1,4 @@
-# Advanced list application for Service Portal
+# Multi-table list application for Service Portal
 Custom ServiceNow application for generating list of records from multiple different data sources and displaying that in Service Portal. Display content of each record type can be customized along with linking behaviour and link parameters. The application consists of a Service Portal widget that does most of the heavy lifting and a custom table where data sources are defined.  
 
 You can find widget source code here: https://github.com/eemelikoli/sp-adv-list-source-code
@@ -35,10 +35,10 @@ Link Parameters - Name/value pairs of URL parameters that will be added to the U
 Item icon - FontAwesome icon that is displayed at the left side of the record on the list  
 Item template - How the data on the record is displayed in the list      
     
-## 2. Add Advanced list widget to Service Portal page
+## 2. Add multi-table list widget to Service Portal page
 ![image](https://user-images.githubusercontent.com/34348034/93462700-65fa5c00-f8ef-11ea-8761-f69689fdac86.png)
 
-Include the SP Avanced List widget to a Service Portal page  
+Include the multi-table list widget to a Service Portal page  
 
 ## 3. In the widget instance options add the list sources you want to use in your list.  
 ![image](https://user-images.githubusercontent.com/34348034/93463277-3566f200-f8f0-11ea-8b19-e829788b2cbc.png)
