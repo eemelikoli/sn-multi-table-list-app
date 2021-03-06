@@ -3,7 +3,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>base_start=true</attributes>
+        <attributes>base_start=true,edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -34,7 +34,7 @@
         <function_field>false</function_field>
         <internal_type display_value="">table_name</internal_type>
         <mandatory>true</mandatory>
-        <max_length>32</max_length>
+        <max_length>80</max_length>
         <name>x_207729_adv_list_item_definition</name>
         <next_element/>
         <primary>false</primary>

@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="List Sources" max_length="40" name="x_207729_adv_list_item_definition" sizeclass="1" type="collection">
-        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+    <element label="List Sources" max_length="40" name="x_207729_adv_list_item_definition" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="true" label="Active" max_length="40" name="active" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" dependent="table" dependent_on_field="table" label="Filter" max_length="4000" name="filter" type="conditions" use_dependent_field="true"/>
         <element label="ID" mandatory="true" max_length="255" name="id" type="string" unique="true"/>
-        <element attributes="iconset=fontawesome" label="Item icon" max_length="100" name="item_icon" type="glyphicon"/>
-        <element label="Item template" mandatory="true" max_length="65000" name="item_template" type="html_template"/>
-        <element dependent="table" dependent_on_field="table" hint="List of fields on the given table that can be used to generate name/value pairs for link parameters on records." label="Link Parameter Fields" max_length="40" name="link_fields" type="field_list" use_dependent_field="true"/>
-        <element default="{&#13;&#10;&quot;sys_id&quot;:&quot;record.sys_id&quot;,&#13;&#10;&quot;table&quot;: &quot;record.table&quot;&#13;&#10;}" hint="Name / value pairs which will be added to the record link URL as parameters.&#13;&#10;Parameters can be static or dynamic based on field values on the records. Following fields are available for every record: sys_id, table.&#13;&#10;If you want to use sys_id or table prefix the field name with &quot;record.&quot;.&#13;&#10;If you want to use values from &quot;Link Parameter Fields&quot; prefix the field name with &quot;field.&quot;.&#13;&#10;Usage example:&#13;&#10; {&#13;&#10;&quot;param_name&quot;: &quot;param value&quot;,&#13;&#10;&quot;param_name&quot;: &quot;record.table&quot;,&#13;&#10;&quot;param_name&quot;: &quot;field.field_name&quot;&#13;&#10;}" label="Link Parameters" max_length="4000" name="link_parameters" type="name_values"/>
+        <element attributes="edge_encryption_enabled=true,iconset=fontawesome" label="Item icon" max_length="100" name="item_icon" type="glyphicon"/>
+        <element attributes="edge_encryption_enabled=true" label="Item template" mandatory="true" max_length="65000" name="item_template" type="html_template"/>
+        <element attributes="edge_encryption_enabled=true,is_multi_text=false" dependent="table" dependent_on_field="table" hint="List of fields on the given table that can be used to generate name/value pairs for link parameters on records." label="Link Parameter Fields" max_length="40" name="link_fields" type="field_list" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" default="{&#13;&#10;&quot;sys_id&quot;:&quot;record.sys_id&quot;,&#13;&#10;&quot;table&quot;: &quot;record.table&quot;&#13;&#10;}" hint="Name / value pairs which will be added to the record link URL as parameters.&#13;&#10;Parameters can be static or dynamic based on field values on the records. Following fields are available for every record: sys_id, table.&#13;&#10;If you want to use sys_id or table prefix the field name with &quot;record.&quot;.&#13;&#10;If you want to use values from &quot;Link Parameter Fields&quot; prefix the field name with &quot;field.&quot;.&#13;&#10;Usage example:&#13;&#10; {&#13;&#10;&quot;param_name&quot;: &quot;param value&quot;,&#13;&#10;&quot;param_name&quot;: &quot;record.table&quot;,&#13;&#10;&quot;param_name&quot;: &quot;field.field_name&quot;&#13;&#10;}" label="Link Parameters" max_length="4000" name="link_parameters" type="name_values"/>
         <element hint="A valid URL  where the user is directed on record click." label="Link URL" max_length="1024" name="link_url" type="string"/>
         <element attributes="edge_encryption_enabled=true" display="true" label="Source name" max_length="100" name="name" type="string"/>
-        <element label="Page" max_length="32" name="page" reference="sp_page" type="reference"/>
-        <element dependent="table" dependent_on_field="table" label="Primary display fields" mandatory="true" max_length="40" name="primary_fields" type="field_list" use_dependent_field="true"/>
-        <element dependent="table" dependent_on_field="table" label="Secondary display fields" max_length="40" name="secondary_fields" type="field_list" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Page" max_length="32" name="page" reference="sp_page" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,is_multi_text=false" dependent="table" dependent_on_field="table" label="Primary display fields" mandatory="true" max_length="40" name="primary_fields" type="field_list" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true,is_multi_text=false" dependent="table" dependent_on_field="table" label="Secondary display fields" max_length="40" name="secondary_fields" type="field_list" use_dependent_field="true"/>
         <element attributes="edge_encryption_enabled=true" label="Short description" max_length="255" name="short_description" type="string"/>
-        <element attributes="base_start=true" label="Table" mandatory="true" max_length="32" name="table" type="table_name"/>
-        <element attributes="allow_null=true,allow_references=true" dependent="table" dependent_on_field="table" label="Title Field" mandatory="true" max_length="80" name="title_field" type="field_name" use_dependent_field="true"/>
+        <element attributes="base_start=true,edge_encryption_enabled=true" label="Table" mandatory="true" max_length="80" name="table" type="table_name"/>
+        <element attributes="allow_null=true,allow_references=true,edge_encryption_enabled=true" dependent="table" dependent_on_field="table" label="Title Field" mandatory="true" max_length="80" name="title_field" type="field_name" use_dependent_field="true"/>
         <element choice="3" default="page" hint="Available choices are &quot;Page&quot; and &quot;URL&quot;. &#13;&#10;Page links to a page within the users current service portal. &#13;&#10;URL links to any given URL." label="Type" mandatory="true" max_length="40" name="type" type="string">
             <choice>
                 <element inactive_on_update="false" label="Page" value="page"/>
@@ -26,12 +26,6 @@
         </index>
         <index name="index2">
             <element name="page"/>
-        </index>
-        <index name="index3">
-            <element name="table"/>
-        </index>
-        <index name="index4">
-            <element name="id"/>
         </index>
     </element>
 </database>

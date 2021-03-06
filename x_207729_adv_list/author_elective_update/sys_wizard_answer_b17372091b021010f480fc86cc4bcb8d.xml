@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="DELETE">
+        <active>true</active>
+        <answer>List instance</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>List instance</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Application File" name="Application File">c1a8ba001b311010f480fc86cc4bcb60</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-15 08:53:12</sys_created_on>
+        <sys_id>b17372091b021010f480fc86cc4bcb8d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>List instance</sys_name>
+        <sys_package display_value="SP Advanced List" source="x_207729_adv_list">09a2f2811b021010f480fc86cc4bcbf0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SP Advanced List">09a2f2811b021010f480fc86cc4bcbf0</sys_scope>
+        <sys_update_name>sys_wizard_answer_b17372091b021010f480fc86cc4bcb8d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-15 08:53:12</sys_updated_on>
+        <table/>
+        <target_url>x_207729_adv_list_instance.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Multi-table list for Service Portal">09a2f2811b021010f480fc86cc4bcbf0</application>
+        <file_path/>
+        <instance_id>2644c26bdb6dd780ff27d5b0cf961986</instance_id>
+        <instance_name>dev57125</instance_name>
+        <name>sys_wizard_answer_b17372091b021010f480fc86cc4bcb8d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer"><sys_wizard_answer action="INSERT_OR_UPDATE"><active>true</active><answer>List instance</answer><button_label/><dependent_value/><element/><name>List instance</name><next_question/><order>100</order><payload_name/><question display_value="Application File" name="Application File">c1a8ba001b311010f480fc86cc4bcb60</question><roles/><script/><sys_class_name>sys_wizard_answer</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-07-15 08:53:12</sys_created_on><sys_id>b17372091b021010f480fc86cc4bcb8d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>List instance</sys_name><sys_package display_value="SP Advanced List" source="x_207729_adv_list">09a2f2811b021010f480fc86cc4bcbf0</sys_package><sys_policy/><sys_scope display_value="SP Advanced List">09a2f2811b021010f480fc86cc4bcbf0</sys_scope><sys_update_name>sys_wizard_answer_b17372091b021010f480fc86cc4bcb8d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-07-15 08:53:12</sys_updated_on><table/><target_url>x_207729_adv_list_instance.do</target_url><type>1</type></sys_wizard_answer></record_update>]]></payload>
+        <payload_hash>-1263142946</payload_hash>
+        <record_name>List instance</record_name>
+        <reverted_from/>
+        <source>1498b2001b311010f480fc86cc4bcb68</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-29 20:25:53</sys_created_on>
+        <sys_id>b3b71acf1b061010f480fc86cc4bcbfa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17301c1ec680000000</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-03-06 09:41:10</sys_updated_on>
+        <type>Answer</type>
+        <update_guid>73b71acf08061010c67664cefe9bf6fa</update_guid>
+        <update_guid_history>73b71acf08061010c67664cefe9bf6fa:-1263142946</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-21 11:59:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_wizard_answer">sys_wizard_answer</sys_db_object>
+        <sys_id>71ebf947c1bb413891541e3cfd713790</sys_id>
+        <sys_metadata>b17372091b021010f480fc86cc4bcb8d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>List instance</sys_name>
+        <sys_package display_value="Multi-table list for Service Portal" source="x_207729_adv_list">09a2f2811b021010f480fc86cc4bcbf0</sys_package>
+        <sys_parent display_value="Application File">c1a8ba001b311010f480fc86cc4bcb60</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Multi-table list for Service Portal">09a2f2811b021010f480fc86cc4bcbf0</sys_scope>
+        <sys_scope_delete display_value="">1240737bed564758b22d7ec231602f84</sys_scope_delete>
+        <sys_update_name>sys_wizard_answer_b17372091b021010f480fc86cc4bcb8d</sys_update_name>
+        <sys_update_version display_value="sys_wizard_answer_b17372091b021010f480fc86cc4bcb8d">b3b71acf1b061010f480fc86cc4bcbfa</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-21 11:59:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
