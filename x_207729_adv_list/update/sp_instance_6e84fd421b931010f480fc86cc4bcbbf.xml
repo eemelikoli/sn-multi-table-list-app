@@ -11,7 +11,7 @@
         <short_description/>
         <size>md</size>
         <sp_column display_value="1">bd918a431b061010f480fc86cc4bcbfc</sp_column>
-        <sp_widget display_value="SP Advanced List">d27abec91b021010f480fc86cc4bcbb4</sp_widget>
+        <sp_widget display_value="Multi-table list for SP">d27abec91b021010f480fc86cc4bcbb4</sp_widget>
         <sys_class_name>sp_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-18 10:10:40</sys_created_on>

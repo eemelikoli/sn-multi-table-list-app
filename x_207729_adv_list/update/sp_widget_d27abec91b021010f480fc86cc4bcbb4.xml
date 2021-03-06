@@ -303,13 +303,13 @@
         <docs/>
         <field_list/>
         <has_preview>false</has_preview>
-        <id>sp-advanced-list</id>
+        <id>multi-table-list-sp</id>
         <internal>false</internal>
         <link><![CDATA[function link (scope, element, attrs, controller) {
     var lazyLoader = $injector.get("lazyLoader");
     lazyLoader.putTemplates(scope.data.listTemplates);
 }]]></link>
-        <name>SP Advanced List</name>
+        <name>Multi-table list for SP</name>
         <option_schema>[{"displayValue":"List Sources","name":"list_sources","display_value_list":[],"section":"Data","label":"List Sources","type":"glide_list","value":"x_207729_adv_list_item_definition","ed":{"reference":"x_207729_adv_list_item_definition"}},{"hint":"Title for this list","name":"title","section":"Presentation","label":"List Title","type":"string"},{"name":"hide_title","section":"Presentation","default_value":"false","label":"Hide List Title","type":"boolean"}]</option_schema>
         <public>false</public>
         <roles/>
@@ -627,14 +627,14 @@ function errorMsgProvider(errorType, arg1, arg2) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-15 09:23:49</sys_created_on>
         <sys_id>d27abec91b021010f480fc86cc4bcbb4</sys_id>
-        <sys_mod_count>919</sys_mod_count>
-        <sys_name>SP Advanced List</sys_name>
+        <sys_mod_count>920</sys_mod_count>
+        <sys_name>Multi-table list for SP</sys_name>
         <sys_package display_value="Multi-table list for Service Portal" source="x_207729_adv_list">09a2f2811b021010f480fc86cc4bcbf0</sys_package>
         <sys_policy/>
         <sys_scope display_value="Multi-table list for Service Portal">09a2f2811b021010f480fc86cc4bcbf0</sys_scope>
         <sys_update_name>sp_widget_d27abec91b021010f480fc86cc4bcbb4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-21 13:50:58</sys_updated_on>
+        <sys_updated_on>2021-03-06 09:47:34</sys_updated_on>
         <template><![CDATA[<div id="title" class="col-xs-12" ng-if="::options.hide_title === 'false'">
     <h1>{{::options.title || "Hello there!"}}</h1>
 </div>
