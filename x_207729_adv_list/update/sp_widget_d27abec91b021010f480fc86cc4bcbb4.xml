@@ -145,10 +145,19 @@
 		c.currentPage = 0;
 		//check if URL already has sorting or search defined
 		var parms = $location.search();
-		c.currentSort = (parms && parms.sortBy) ? c.data.sortOptions[parms.sortBy-1] : c.data.sortOptions[0];
-		c.searchTerm = (parms && parms.search) ? parms.search : "";
+		if(parms.hasOwnProperty('sortBy')) {
+			c.currentSort = c.data.sortOptions.find(function(opt){
+				return opt.id == parms.sortBy;
+			});
+		} else {
+			c.currentSort = c.data.sortOptions[0];
+		}
+		if(parms.hasOwnProperty('search')) {
+			c.searchTerm = parms.search;
+		} else {
+			c.searchTerm = "";
+		}
 		c.searchInput = c.searchTerm; // display actual searchTerm in the input field
-
 		c.displayControls = false; // hide controls before the list has loaded
 		initializeList({
 			sorting: c.currentSort,
@@ -319,28 +328,28 @@
     CONFIG_FIELDS = $sp.getListColumns(LIST_SOURCE_TABLE,'widgetconfig').split(','),
     // TODO?: Move search and sorting logic to it's own widget
     SORT_OPTIONS = [{
-        id: 1,
+        id: "title_AZ",
         field: "title",
         display: gs.getMessage("title_AZ"),
         orderAsc: true,
         type: "locale"
       },
       {
-        id: 2,
+        id: "title_ZA",
         field: "title",
         display: gs.getMessage("title_ZA"),
         orderAsc: false,
         type: "locale"
       },
       {
-        id: 3,
+        id: "newest",
         field: "sys_created_on",
         display: gs.getMessage("Newest"),
         orderAsc: false,
         type: "date"
       },
       {
-        id: 4,
+        id: "oldest",
         field: "sys_created_on",
         display: gs.getMessage("Oldest"),
         orderAsc: true,
@@ -627,14 +636,14 @@ function errorMsgProvider(errorType, arg1, arg2) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-15 09:23:49</sys_created_on>
         <sys_id>d27abec91b021010f480fc86cc4bcbb4</sys_id>
-        <sys_mod_count>920</sys_mod_count>
+        <sys_mod_count>942</sys_mod_count>
         <sys_name>Multi-table list for SP</sys_name>
         <sys_package display_value="Multi-table list for Service Portal" source="x_207729_adv_list">09a2f2811b021010f480fc86cc4bcbf0</sys_package>
         <sys_policy/>
         <sys_scope display_value="Multi-table list for Service Portal">09a2f2811b021010f480fc86cc4bcbf0</sys_scope>
         <sys_update_name>sp_widget_d27abec91b021010f480fc86cc4bcbb4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-06 09:47:34</sys_updated_on>
+        <sys_updated_on>2021-03-13 12:31:44</sys_updated_on>
         <template><![CDATA[<div id="title" class="col-xs-12" ng-if="::options.hide_title === 'false'">
     <h1>{{::options.title || "Hello there!"}}</h1>
 </div>
@@ -672,6 +681,9 @@ function errorMsgProvider(errorType, arg1, arg2) {
 </section>
 
 <section id="item-list" aria-label="Item list" class="col-xs-12">
+    <!--div class="col-xs-12" ng-if="c.searchTerm !== ''">
+        <h4 class="text-center text-muted">Searching with phrase: {{c.searchTerm}}</h4>
+    </div-->
     <ul id=items ng-if="!c.noResults">
         <li class="panel panel-default list-item" ng-repeat="item in c.items">
             <a class="panel-body item-body" ng-href="{{c.generateLink(item.url)}}">
@@ -685,7 +697,7 @@ function errorMsgProvider(errorType, arg1, arg2) {
                 <!-- template provided in list source definition -->
                 <div ng-include="item.templateID" class="item-content"></div>
 
-                <!-- using the back-up list template on when no template is provided -->
+                <!-- using the default list template on when no template is provided -->
                 <div ng-if="data.listTemplates[item.templateID] == null">
                     <h3>{{item.title}}</h3>
                     <p ng-repeat="field in item.primary_fields">{{field.display_value}}</p>
@@ -695,7 +707,7 @@ function errorMsgProvider(errorType, arg1, arg2) {
         </li>
     </ul>
 
-    <div ng-if="c.noResults" class="text-center" aria-label="">
+    <div ng-if="c.noResults" class="text-center" aria-label="${noResultsText}">
         <h3>${noResultsText}</h3>
     </div>
 
