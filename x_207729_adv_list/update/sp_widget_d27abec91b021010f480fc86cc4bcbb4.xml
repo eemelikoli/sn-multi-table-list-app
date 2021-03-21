@@ -325,38 +325,40 @@
         <script><![CDATA[(function () {
   // CONSTANTS
   var LIST_SOURCE_TABLE = "x_207729_adv_list_item_definition",
-    CONFIG_FIELDS = $sp.getListColumns(LIST_SOURCE_TABLE,'widgetconfig').split(','),
+    CONFIG_FIELDS = $sp
+      .getListColumns(LIST_SOURCE_TABLE, "widgetconfig")
+      .split(","),
     // TODO?: Move search and sorting logic to it's own widget
-    SORT_OPTIONS = [{
+    SORT_OPTIONS = [
+      {
         id: "title_AZ",
         field: "title",
         display: gs.getMessage("title_AZ"),
         orderAsc: true,
-        type: "locale"
+        type: "locale",
       },
       {
         id: "title_ZA",
         field: "title",
         display: gs.getMessage("title_ZA"),
         orderAsc: false,
-        type: "locale"
+        type: "locale",
       },
       {
         id: "newest",
         field: "sys_created_on",
         display: gs.getMessage("Newest"),
         orderAsc: false,
-        type: "date"
+        type: "date",
       },
       {
         id: "oldest",
         field: "sys_created_on",
         display: gs.getMessage("Oldest"),
         orderAsc: true,
-        type: "date"
-      }
+        type: "date",
+      },
     ];
-
 
   var initializedSources = [],
     pageSize = 10; // TODO: allow page size to be set in instanse options
@@ -397,11 +399,8 @@
     load(grOptions);
   }
 
-
-
-
   function load(opt) {
-    var sources = opt.initializedSources.filter(function(source){
+    var sources = opt.initializedSources.filter(function (source) {
       return source !== null && source !== undefined;
     });
 
@@ -414,11 +413,11 @@
       if (opt.orderBy === "title") {
         opt.orderBy = source.title_field;
       }
-      var tempGr = generateGliderecord(source.table, source.filter, opt);
+      var tempGr = generateGlideRecord(source.table, source.filter, opt);
       return {
         source: source,
         glideRecord: tempGr,
-        noRecords: tempGr.getRowCount()
+        noRecords: tempGr.getRowCount(),
       };
     });
 
@@ -439,8 +438,6 @@
     data.pageSize = pageSize;
   }
 })();
-
-
 
 function initializeListSources(
   listSources,
@@ -464,14 +461,15 @@ function initializeListSources(
     for (var i = 0, j = configurationFields.length; i < j; i++) {
       t[configurationFields[i]] = sourceGr.getValue(configurationFields[i]);
     }
-    data.listTemplates["sp-template-" + t.id + ".html"] = $sp.translateTemplate(
-      t.item_template
-    ); //using undocumented ServiceNow function to generate the list templates from record data
+    data.listTemplates["sp-template-" + t.id + ".html"] = $sp.translateTemplate(t.item_template); //using undocumented ServiceNow function to generate the list templates from record data
 
-    if (t.type === 'page') {
+    if (t.type === "page") {
       var pageGr = new GlideRecord("sp_page");
-      pageGr.get(t.page);
-      t.pageID = pageGr.getValue("id");
+      if (pageGr.get(t.page)) {
+        t.pageID = pageGr.getValue("id");
+      } else {
+        t.pageID = "";
+      }
     }
 
     return t;
@@ -479,9 +477,7 @@ function initializeListSources(
   return sourceConfigs;
 }
 
-
-
-function generateGliderecord(table, filter, o) {
+function generateGlideRecord(table, filter, o) {
   var query = new GlideRecordSecure(table);
 
   if (!query.isValid()) {
@@ -495,12 +491,12 @@ function generateGliderecord(table, filter, o) {
 
   if (o.searchTerm) {
     //query.addQuery("123TEXTQUERY321", o.searchTerm);
-    query.addQuery('IR_AND_OR_QUERY', o.searchTerm);
+    query.addQuery("IR_AND_OR_QUERY", o.searchTerm);
   }
   if (
-    o.orderAsc === true ?
-    query.orderBy(o.orderBy) :
-    query.orderByDesc(o.orderBy)
+    o.orderAsc === true
+      ? query.orderBy(o.orderBy)
+      : query.orderByDesc(o.orderBy)
   );
 
   if (o) {
@@ -510,8 +506,6 @@ function generateGliderecord(table, filter, o) {
   query.query();
   return query;
 }
-
-
 
 function getRecords(query, source) {
   var records = [],
@@ -556,8 +550,6 @@ function getRecords(query, source) {
   return records;
 }
 
-
-
 function generateURL(record, urlObj) {
   var parms = JSON.parse(urlObj.parms);
   var url = {
@@ -574,14 +566,14 @@ function generateURL(record, urlObj) {
   for (var key in parms) {
     if (parms.hasOwnProperty(key)) {
       var parm = parms[key],
-        type = parm.split('.')[0],
-        field = parm.split('.')[1],
+        type = parm.split(".")[0],
+        field = parm.split(".")[1],
         value = "";
 
-      if (type === 'record') {
+      if (type === "record") {
         value = record[field];
       }
-      if (type === 'field') {
+      if (type === "field") {
         value = record.link_fields[field];
       }
       if (value === "") {
@@ -621,7 +613,10 @@ function errorMsgProvider(errorType, arg1, arg2) {
       break;
     case "table_access":
       data.errorMessages.push(
-        "Cannot display items from one of the defined tables due to access right restrictions. " + arg1 + " " + arg2
+        "Cannot display items from one of the defined tables due to access right restrictions. " +
+        arg1 +
+        " " +
+        arg2
       );
       break;
     default:
@@ -636,14 +631,14 @@ function errorMsgProvider(errorType, arg1, arg2) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-15 09:23:49</sys_created_on>
         <sys_id>d27abec91b021010f480fc86cc4bcbb4</sys_id>
-        <sys_mod_count>942</sys_mod_count>
+        <sys_mod_count>944</sys_mod_count>
         <sys_name>Multi-table list for SP</sys_name>
         <sys_package display_value="Multi-table list for Service Portal" source="x_207729_adv_list">09a2f2811b021010f480fc86cc4bcbf0</sys_package>
         <sys_policy/>
         <sys_scope display_value="Multi-table list for Service Portal">09a2f2811b021010f480fc86cc4bcbf0</sys_scope>
         <sys_update_name>sp_widget_d27abec91b021010f480fc86cc4bcbb4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-03-13 12:31:44</sys_updated_on>
+        <sys_updated_on>2021-03-13 14:48:10</sys_updated_on>
         <template><![CDATA[<div id="title" class="col-xs-12" ng-if="::options.hide_title === 'false'">
     <h1>{{::options.title || "Hello there!"}}</h1>
 </div>
